@@ -518,12 +518,13 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{url}}/pet{{petId}}",
+									"raw": "{{url}}/pet/{{petId}}",
 									"host": [
 										"{{url}}"
 									],
 									"path": [
-										"pet{{petId}}"
+										"pet",
+										"{{petId}}"
 									]
 								}
 							},
@@ -624,12 +625,12 @@
 									}
 								},
 								"url": {
-									"raw": "{{url}}/pet ",
+									"raw": "{{url}}/pet",
 									"host": [
 										"{{url}}"
 									],
 									"path": [
-										"pet "
+										"pet"
 									]
 								}
 							},
@@ -851,14 +852,13 @@
 								"method": "DELETE",
 								"header": [],
 								"url": {
-									"raw": "{{url}}/store/order/10/{{orderId}}",
+									"raw": "{{url}}/store/order/{{orderId}}",
 									"host": [
 										"{{url}}"
 									],
 									"path": [
 										"store",
 										"order",
-										"10",
 										"{{orderId}}"
 									]
 								}
