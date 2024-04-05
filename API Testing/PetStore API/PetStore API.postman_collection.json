@@ -11,7 +11,125 @@
 			"name": "Pet API",
 			"item": [
 				{
-					"name": "#1 Create Pet",
+					"name": "{petId}",
+					"item": [
+						{
+							"name": "Find pet by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/pet/203",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"pet",
+										"203"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete a Pet",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/pet/203",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"pet",
+										"203"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update a pet in the store with form data",
+							"protocolProfileBehavior": {
+								"disabledSystemHeaders": {}
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}/pet/203?name=Grisli&status=pending",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"pet",
+										"203"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "Grisli"
+										},
+										{
+											"key": "status",
+											"value": "pending"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "findByStatus",
+					"item": [
+						{
+							"name": "Find pet by status",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}/pet/findByStatus?status=pending",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"pet",
+										"findByStatus"
+									],
+									"query": [
+										{
+											"key": "status",
+											"value": "pending"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Add a new pet",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -37,25 +155,7 @@
 					"response": []
 				},
 				{
-					"name": "#2 GetById",
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "{{url}}/pet/203",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"pet",
-								"203"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "#3 UpdatePet",
+					"name": "Update an existing pet",
 					"request": {
 						"method": "PUT",
 						"header": [],
@@ -79,96 +179,6 @@
 						}
 					},
 					"response": []
-				},
-				{
-					"name": "#5 ChangeStatusParam",
-					"protocolProfileBehavior": {
-						"disabledSystemHeaders": {}
-					},
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Accept",
-								"value": "application/json",
-								"type": "text"
-							},
-							{
-								"key": "Content-Type",
-								"value": "application/x-www-form-urlencoded",
-								"type": "text"
-							}
-						],
-						"url": {
-							"raw": "{{url}}/pet/203?name=Grisli&status=pending",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"pet",
-								"203"
-							],
-							"query": [
-								{
-									"key": "name",
-									"value": "Grisli"
-								},
-								{
-									"key": "status",
-									"value": "pending"
-								}
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "#6 GetFindByStatus",
-					"request": {
-						"method": "GET",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/json",
-								"type": "text"
-							}
-						],
-						"url": {
-							"raw": "{{url}}/pet/findByStatus?status=pending",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"pet",
-								"findByStatus"
-							],
-							"query": [
-								{
-									"key": "status",
-									"value": "pending"
-								}
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "#7 Delete Pet",
-					"request": {
-						"method": "DELETE",
-						"header": [],
-						"url": {
-							"raw": "{{url}}/pet/203",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"pet",
-								"203"
-							]
-						}
-					},
-					"response": []
 				}
 			]
 		},
@@ -176,91 +186,106 @@
 			"name": "Store API",
 			"item": [
 				{
-					"name": "#1 GetInventory",
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "{{url}}/store/inventory",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"store",
-								"inventory"
-							]
+					"name": "inventory",
+					"item": [
+						{
+							"name": "Return pet inventories",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/store/inventory",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"store",
+										"inventory"
+									]
+								}
+							},
+							"response": []
 						}
-					},
-					"response": []
+					]
 				},
 				{
-					"name": "#2 AddOrder",
-					"protocolProfileBehavior": {
-						"disabledSystemHeaders": {}
-					},
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/json",
-								"type": "text"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n  \"id\": 10,\r\n  \"petId\": 203,\r\n  \"quantity\": 10,\r\n  \"shipDate\": \"2022-03-28T20:00:18.694Z\",\r\n  \"status\": \"placed\",\r\n  \"complete\": true\r\n}"
+					"name": "order",
+					"item": [
+						{
+							"name": "{orderId}",
+							"item": [
+								{
+									"name": "Find order by ID",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{url}}/store/order/10",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"store",
+												"order",
+												"10"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Delete order by ID",
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{url}}/store/order/10",
+											"host": [
+												"{{url}}"
+											],
+											"path": [
+												"store",
+												"order",
+												"10"
+											]
+										}
+									},
+									"response": []
+								}
+							]
 						},
-						"url": {
-							"raw": "{{url}}/store/order",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"store",
-								"order"
-							]
+						{
+							"name": "Add new order",
+							"protocolProfileBehavior": {
+								"disabledSystemHeaders": {}
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"id\": 10,\r\n  \"petId\": 203,\r\n  \"quantity\": 10,\r\n  \"shipDate\": \"2022-03-28T20:00:18.694Z\",\r\n  \"status\": \"placed\",\r\n  \"complete\": true\r\n}"
+								},
+								"url": {
+									"raw": "{{url}}/store/order",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"store",
+										"order"
+									]
+								}
+							},
+							"response": []
 						}
-					},
-					"response": []
-				},
-				{
-					"name": "#3 GetOrder",
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "{{url}}/store/order/10",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"store",
-								"order",
-								"10"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "#4 DeleteOrder",
-					"request": {
-						"method": "DELETE",
-						"header": [],
-						"url": {
-							"raw": "{{url}}/store/order/10",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"store",
-								"order",
-								"10"
-							]
-						}
-					},
-					"response": []
+					]
 				}
 			]
 		},
@@ -268,7 +293,139 @@
 			"name": "User API",
 			"item": [
 				{
-					"name": "#1 AddUser",
+					"name": "{username}",
+					"item": [
+						{
+							"name": "Get user by username",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}/user/Ti123",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"user",
+										"Ti123"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update user by username",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"id\": 4,\r\n  \"username\": \"Tom\",\r\n  \"firstName\": \"Name\",\r\n  \"lastName\": \"Last Name\",\r\n  \"email\": \"test@test.fo\",\r\n  \"password\": \"string123\",\r\n  \"phone\": \"56589\",\r\n  \"userStatus\": 5\r\n}"
+								},
+								"url": {
+									"raw": "{{url}}/user/Ti123",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"user",
+										"Ti123"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get user by updated usernameser",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}/user/Tom",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"user",
+										"Tom"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete user by username",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/user/Tom",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"user",
+										"Tom"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "createWithList",
+					"item": [
+						{
+							"name": "Multiply creating users",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "[\r\n{\r\n  \"id\": 4,\r\n  \"username\": \"Ti123\",\r\n  \"firstName\": \"Ted\",\r\n  \"lastName\": \"Fin\",\r\n  \"email\": \"tin123@gmail.com\",\r\n  \"password\": \"Qwerty123\",\r\n  \"phone\": \"043255689\",\r\n  \"userStatus\": 1\r\n},\r\n{\r\n  \"id\": 4,\r\n  \"username\": \"Tom\",\r\n  \"firstName\": \"Name\",\r\n  \"lastName\": \"Last Name\",\r\n  \"email\": \"test@test.fo\",\r\n  \"password\": \"string123\",\r\n  \"phone\": \"56589\",\r\n  \"userStatus\": 5\r\n}\r\n]"
+								},
+								"url": {
+									"raw": "{{url}}/user/createWithList",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"user",
+										"createWithList"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Create a new user",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -288,128 +445,6 @@
 							],
 							"path": [
 								"user"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "#2 GetUser",
-					"request": {
-						"method": "GET",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/json",
-								"type": "text"
-							}
-						],
-						"url": {
-							"raw": "{{url}}/user/Ti123",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"user",
-								"Ti123"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "#3 UpdateUser",
-					"request": {
-						"method": "PUT",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/json",
-								"type": "text"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n  \"id\": 4,\r\n  \"username\": \"Tom\",\r\n  \"firstName\": \"Name\",\r\n  \"lastName\": \"Last Name\",\r\n  \"email\": \"test@test.fo\",\r\n  \"password\": \"string123\",\r\n  \"phone\": \"56589\",\r\n  \"userStatus\": 5\r\n}"
-						},
-						"url": {
-							"raw": "{{url}}/user/Ti123",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"user",
-								"Ti123"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "#3.1 GetUpdatedUser",
-					"request": {
-						"method": "GET",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/json",
-								"type": "text"
-							}
-						],
-						"url": {
-							"raw": "{{url}}/user/Tom",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"user",
-								"Tom"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "#4 DeleteUser",
-					"request": {
-						"method": "DELETE",
-						"header": [],
-						"url": {
-							"raw": "{{url}}/user/Tom",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"user",
-								"Tom"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "#5 Multiply creating",
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/json",
-								"type": "text"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "[\r\n{\r\n  \"id\": 4,\r\n  \"username\": \"Ti123\",\r\n  \"firstName\": \"Ted\",\r\n  \"lastName\": \"Fin\",\r\n  \"email\": \"tin123@gmail.com\",\r\n  \"password\": \"Qwerty123\",\r\n  \"phone\": \"043255689\",\r\n  \"userStatus\": 1\r\n},\r\n{\r\n  \"id\": 4,\r\n  \"username\": \"Tom\",\r\n  \"firstName\": \"Name\",\r\n  \"lastName\": \"Last Name\",\r\n  \"email\": \"test@test.fo\",\r\n  \"password\": \"string123\",\r\n  \"phone\": \"56589\",\r\n  \"userStatus\": 5\r\n}\r\n]"
-						},
-						"url": {
-							"raw": "{{url}}/user/createWithList",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"user",
-								"createWithList"
 							]
 						}
 					},
