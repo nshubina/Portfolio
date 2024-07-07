@@ -1,0 +1,22 @@
+ul {
+    list-style-type: none;
+    margin:0px;
+    padding:0px; 
+}
+li{
+    display: inline;
+}
+
+li a {  
+    text-align: center
+}
+
+li a.active{
+    background-color: darkkhaki;
+    color:greenyellow;
+}
+
+li a:hover:not(.active){
+    background-color: pink;
+    color: gray;
+}
