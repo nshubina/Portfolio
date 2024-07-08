@@ -2,21 +2,35 @@ ul {
     list-style-type: none;
     margin:0px;
     padding:0px; 
+    overflow: hidden;
+    top:10px;
 }
-li{
-    display: inline;
+
+li {
+   float:left;
 }
 
 li a {  
-    text-align: center
+    text-align: center;
+    display: block;
+    color:brown;
+    padding: 10px 16px;
+    text-decoration: none;
 }
 
-li a.active{
-    background-color: darkkhaki;
-    color:greenyellow;
+.active{
+    background-color: pink;
+    color:black;
 }
 
 li a:hover:not(.active){
-    background-color: pink;
-    color: gray;
+    background-color: bisque;
+}
+
+.navbar img{
+    float: left
+}
+
+@media screen and (max-width:600px){
+    .navbar{float:none}
 }
