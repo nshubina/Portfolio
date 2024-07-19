@@ -52,9 +52,13 @@ li a:hover:not(.active){
 @media screen and (max-width:600px){
     .navbar{float:none}
 }
+.content{
+    text-align: center;
+}
 
 .content h1{
-    font-size:90px
+    font-size:90px;
+    line-height: 1.2;
 }
 
 .content p{
@@ -69,4 +73,10 @@ li a:hover:not(.active){
     border: black 1px solid;
     padding: 10px 20px;
     border-radius: 10px;
+    margin-top: 20px;
+}
+
+.content .button:hover{
+    background:#926239;
+    color: wheat;
 }
