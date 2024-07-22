@@ -1,40 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
 *{
-    margin:0;
-    padding:0s
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
 }
 
-.header{
-    background-image: url("../images/nature.jpg");
+ .banner {
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url("../images/nature.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    width: 100%;
     height: 100vh;
     display:flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 20px;  
+   
 }
 
-ul {
+.logo{
+    width:70px;
+    cursor:pointer;
+}
+
+.navbar{
+    width:100%;  
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: relative;   
+}
+
+.navbar ul li{
     list-style-type: none;
-    margin:0px;
+    margin:0px 1px;
     padding:0px; 
     overflow: hidden;
-    top:10px;
+    float:left;
 }
 
-li {
-   float:left;
-}
-
-li a {  
+.navbar ul li a {  
     text-align: center;
     display: block;
     color:brown;
     padding: 10px 16px;
     text-decoration: none;
-}
+    border-radius: 7px;
+} 
 
 .active{
     background-color: pink;
@@ -45,38 +61,51 @@ li a:hover:not(.active){
     background-color: bisque;
 }
 
-.navbar img{
-    float: left
-}
-
 @media screen and (max-width:600px){
     .navbar{float:none}
 }
+
 .content{
     text-align: center;
+    width:100%;
+    height:100vh;
+    top:0px;
+    left:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .content h1{
-    font-size:90px;
+    color:#fff;
+    font-size:80px;
     line-height: 1.2;
+    font-weight:700px;
 }
 
 .content p{
     font-size:20px;
     padding:15px;
+    color:rgba(186, 161, 165, 0.811);
+    font-weight:500px;
 }
 
 .content .button{
+    margin-top:20px;
     font-size: 20px;
     text-decoration:none;
-    color:black;
-    border: black 1px solid;
+    color:white;
+    border: rgb(148, 129, 129) 2px solid;
     padding: 10px 20px;
     border-radius: 10px;
     margin-top: 20px;
+    display:inline-block;
+    letter-spacing: 2px;
+    background-color: #7e7c7f;;
 }
 
 .content .button:hover{
-    background:#926239;
+    background-color:#926239;
     color: wheat;
 }
