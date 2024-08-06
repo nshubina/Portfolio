@@ -46,8 +46,9 @@
 .navbar ul li a {  
     text-align: center;
     display: block;
-    color:brown;
+    color:rgb(32, 24, 24);
     padding: 10px 16px;
+    font-weight:400px;
     text-decoration: none;
     border-radius: 7px;
 } 
