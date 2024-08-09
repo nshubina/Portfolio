@@ -19,9 +19,7 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    padding:33px 9%; 
-    position:fixed;
-    
+    padding:33px 9%;    
 }
 
 .logo{
