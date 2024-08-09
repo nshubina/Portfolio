@@ -182,6 +182,7 @@ h3{
 
 
 /*Camping*/
+/*
 .camping{
     width:80%;
     margin: auto;
@@ -231,7 +232,7 @@ h3{
     bottom:49%;
     opacity:1;
 }
-
+*/
 
 /*facilities*/
 .facilities{
@@ -239,17 +240,24 @@ h3{
     margin:auto;
     text-align:center;
     padding-top:100px;
+    position:relative; 
 }
 
 .facilities-col{
-    flex-basis:31%;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    
+  /*  flex-basis:31%;
     border-radius:10px;
     margin-bottom:5%;
-    text-align:left;
+    text-align:left;*/ 
 }
 
 .facilities-col img{
-    width:50%;
+    display: block;
+    width: 100%;
+    height:auto;
     border-radius:10px;
 }
 
@@ -262,3 +270,16 @@ h3{
     margin-bottom:15px;
     text-align: left;
 }
+
+.facilities::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* maybe, I need change the max-weight, need adapt*/
+@media screen and (max-width: 600px) {
+    .facilities-col {
+      width: 100%;
+    }
+  }
