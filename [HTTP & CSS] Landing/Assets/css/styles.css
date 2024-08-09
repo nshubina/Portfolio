@@ -5,6 +5,8 @@
     padding:0px;
     box-sizing: border-box;
     font-family: "Roboto Slab", serif;
+    list-style: none;
+    text-decoration: none;
 }
 
  .banner {
@@ -17,8 +19,9 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 20px;  
-   
+    padding:33px 9%; 
+    position:fixed;
+    
 }
 
 .logo{
@@ -26,13 +29,30 @@
     cursor:pointer;
 }
 
+.navlist {
+    display: flex;
+}
+.navlist a{ 
+    color:white;
+    margin-left:60px;
+    font-size: 15px;
+    font-weight:600;
+    border-bottom: 2px solid transparent;
+    transition: all .65s ease;
+}
+
+.navlist a:hover{
+    border-bottom: 2px solid rgb(213, 36, 36);  
+}
+
+/*
 .navbar{
     width:100%;  
     padding: 10px 0;
     justify-content: space-between;
     align-items: center;
     display: flex;
-    position: relative;   
+    position: relative; 
 }
 
 .navbar ul li{
@@ -44,14 +64,14 @@
 }
 
 .navbar ul li a {  
+    color:rgb(32, 24, 24);
+    font-weight:600px;
     text-align: center;
     display: block;
-    color:rgb(32, 24, 24);
     padding: 10px 16px;
-    font-weight:400px;
     text-decoration: none;
     border-radius: 7px;
-} 
+}
 
 .active{
     background-color: pink;
@@ -61,7 +81,7 @@
 li a:hover:not(.active){
     background-color: bisque;
 }
-
+*/ 
 @media screen and (max-width:600px){
     .navbar{float:none}
 }
@@ -271,11 +291,6 @@ h3{
     text-align: left;
 }
 
-.facilities::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 
 /* maybe, I need change the max-weight, need adapt*/
 @media screen and (max-width: 600px) {
