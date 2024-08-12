@@ -357,6 +357,20 @@ h4{
     margin-bottom:50px;
 }
 
+.footer{
+    width:100%;
+    min-height:200px;
+    padding:20px 80px;
+    margin:0;
+    background: burlywood;
+    text-align:center;
+}
+
+.footer p{
+    color:white;
+    margin:20px auto;
+    padding:20px auto;
+}
 
 
 
