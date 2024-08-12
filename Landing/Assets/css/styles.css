@@ -20,6 +20,7 @@ header{
     justify-content: center;
 }
 
+
 /* body */
 
 #body .section1 p{ 
@@ -259,7 +260,7 @@ h3{
 
   /*Events*/
 
-.title{
+.ev-title{
     margin:auto;
     width:80%;
     text-align: center;
@@ -267,41 +268,51 @@ h3{
     color:rgb(56, 34, 5);
 }
 
-.line {
+.ev-title .line {
     width:150px;
     height: 4px;
     background:#fc036b;
     margin: 3px auto 40px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
-.title h1{
+.ev-title h1{
   padding-top:40px;
   padding-bottom:10px;
 }
 
-.title .row{
+.events{
     display:flex;
     align-items: center;
     width:100%;
+    gap:16px;
+    margin-top: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.row .col img{
-    width: 90%;
+.event img{
+    max-width: 90%;
     border-radius: 5px;
-}
-  
-.events .row {
-    margin-top: 50px;
+    transition: transform 0.3s ease;
 }
 
-h4{
+.event img:hover{
+    transform:scale(1.05)
+}
+
+  
+.event {
+    width:350px
+}
+
+.event h3{
     font-size:3vmin;
     color:green;
     margin:20px;
 }
 
-.events .ctn{
+.sEvents .ctn{
     margin-top: 30px;
 }
   
@@ -369,4 +380,4 @@ h4{
     color:white;
     margin:20px auto;
     padding:20px auto;
-}
+} 
