@@ -23,12 +23,10 @@ header {
 
 /* body */
 
+/* was in selector of discover section*/
+
 #body .section1 p {
   text-align: left;
-}
-#body {
-  background-color: rgb(186, 171, 171);
-  overflow: hidden;
 }
 
 .banner {
@@ -156,20 +154,26 @@ li a:hover:not(.active){
   color: wheat;
 }
 
-/* course */
-.course {
-  width: 80%;
+/* Discover */
+
+#discover {
+  /*background-color: rgb(186, 171, 171); */
+  overflow: hidden;
+}
+
+.discover-header {
+  width: 75%;
   margin: auto;
   text-align: center;
   padding-top: 40px;
 }
 
-h1 {
-  font-size: 36px;
-  font-weight: 600;
+.discover-header h1 {
+  font-size: 3em;
+  font-weight: 600; 
 }
 
-p {
+.discover-header p {
   color: #535050;
   font-size: 14px;
   font-weight: 400px;
@@ -177,13 +181,13 @@ p {
   padding: 10px;
 }
 
-.course-row {
+.discover-content {
   margin-top: 5%;
   display: flex;
   justify-content: space-between;
 }
 
-.course-col {
+.discover-box {
   flex-basis: 31%;
   background: #fff3f3;
   border-radius: 10px;
@@ -199,71 +203,17 @@ h3 {
   margin: 10px 0;
 }
 
-.course-col:hover {
+.discover-box:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
+
+
 @media (max-width: 700px) {
-  .course-row {
+  .discover-content {
     flex-direction: column;
   }
 }
 
-/*facilities*/
-.facilities {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  padding-top: 100px;
-  position: relative;
-}
-
-.facilities-col {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-
-  /*  flex-basis:31%;
-    border-radius:10px;
-    margin-bottom:5%;
-    text-align:left;*/
-}
-
-.facilities-col img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-.facilities-col p {
-  padding: 0;
-  padding-bottom: 30px;
-}
-
-.facilities-col h3 {
-  margin-top: 16px;
-  margin-bottom: 15px;
-  text-align: left;
-}
-
-/* maybe, I need change the max-weight, need adapt*/
-@media screen and (max-width: 600px) {
-  .facilities-col {
-    width: 100%;
-  }
-
-  .about-us-container {
-    flex-direction: column;
-    gap: 30px;
-  }
-
-  .footer-container{
-    flex-direction: column;
-    gap:16px;
-  }
-}
-
-/*About me with blur*/
 
 /*Events*/
 
@@ -321,6 +271,66 @@ h3 {
 .sEvents .ctn {
   margin-top: 30px;
 }
+
+
+/*facilities*/
+.facilities {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  position: relative;
+}
+
+.facilities-col {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+
+  /*  flex-basis:31%;
+    border-radius:10px;
+    margin-bottom:5%;
+    text-align:left;*/
+}
+
+.facilities-col img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.facilities-col p {
+  padding: 0;
+  padding-bottom: 30px;
+}
+
+.facilities-col h3 {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* maybe, I need change the max-weight, need adapt*/
+@media screen and (max-width: 600px) {
+  .facilities-col {
+    width: 100%;
+  }
+
+  .about-us-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+/*About me with blur*/
+
+
 
 /* Learn more btn */
 .ctn {
