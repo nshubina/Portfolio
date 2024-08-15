@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap");
 
 * {
   margin: 0px;
@@ -157,28 +159,29 @@ li a:hover:not(.active){
 /* Discover */
 
 #discover {
-  /*background-color: rgb(186, 171, 171); */
   overflow: hidden;
 }
 
-.discover-header {
-  width: 75%;
+.discover-container {
+  width: 80%;
   margin: auto;
   text-align: center;
   padding-top: 40px;
 }
 
 .discover-header h1 {
-  font-size: 3em;
-  font-weight: 600; 
+  font-size: 6vmin;
+  font-weight: 600;
+  color: rgb(56, 34, 5);
+  font-family: "DM Serif Display", serif;
 }
 
 .discover-header p {
-  color: #535050;
-  font-size: 14px;
-  font-weight: 400px;
+  color: rgb(56, 34, 5);
+  font-size: 18px;
+  font-weight: 500;
   line-height: 22px;
-  padding: 10px;
+  padding: 30px 10px 10px;
 }
 
 .discover-content {
@@ -190,30 +193,39 @@ li a:hover:not(.active){
 .discover-box {
   flex-basis: 31%;
   background: #fff3f3;
-  border-radius: 10px;
+  border-radius: 15px;
   margin-bottom: 5%;
   padding: 20px;
   box-sizing: border-box;
-  transition: 0.5s;
+  transition: 0.4s;
+  cursor: pointer;
 }
 
-h3 {
+.discover-box h3 {
+  color: rgb(56, 34, 5);
+  font-size: 20px;
+  font-weight: 900;
   text-align: center;
-  font-weight: 600;
   margin: 10px 0;
+}
+
+.discover-box p {
+  color: rgb(56, 34, 5);
+  font-size: 15px;
+  font-weight: 500px;
+  line-height: 27px;
+  padding: 15px 10px;
 }
 
 .discover-box:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
-
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .discover-content {
     flex-direction: column;
   }
 }
-
 
 /*Events*/
 
@@ -222,7 +234,9 @@ h3 {
   width: 80%;
   text-align: center;
   font-size: 4vmin;
-  color: rgb(56, 34, 5);
+  color: rgb(204, 175, 137);
+  font-family: "DM Serif Display", serif;
+
 }
 
 .ev-title .line {
@@ -271,6 +285,11 @@ h3 {
 .sEvents .ctn {
   margin-top: 30px;
 }
+
+
+
+
+
 
 
 /*facilities*/
@@ -329,8 +348,6 @@ h3 {
 }
 
 /*About me with blur*/
-
-
 
 /* Learn more btn */
 .ctn {
