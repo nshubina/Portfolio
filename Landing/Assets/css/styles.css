@@ -178,7 +178,7 @@ li a:hover:not(.active){
 
 .discover-header p {
   color: rgb(56, 34, 5);
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
   line-height: 22px;
   padding: 30px 10px 10px;
@@ -229,18 +229,22 @@ li a:hover:not(.active){
 
 /*Events*/
 
+.events-container {
+  margin: auto;
+  padding-bottom: 60px;
+}
+
 .ev-title {
   margin: auto;
   width: 80%;
   text-align: center;
   font-size: 4vmin;
-  color: rgb(204, 175, 137);
-  font-family: "DM Serif Display", serif;
-
+  color: rgb(56, 34, 5);
+  font-weight: 600px;
 }
 
 .ev-title .line {
-  width: 150px;
+  width: 160px;
   height: 4px;
   background: #fc036b;
   margin: 3px auto 40px;
@@ -250,6 +254,7 @@ li a:hover:not(.active){
 .ev-title h1 {
   padding-top: 40px;
   padding-bottom: 10px;
+  font-family: "DM Serif Display", serif;
 }
 
 .events {
@@ -257,39 +262,41 @@ li a:hover:not(.active){
   align-items: center;
   width: 100%;
   gap: 16px;
-  margin-top: 40px;
+  margin-top: 50px;
   justify-content: center;
   flex-wrap: wrap;
 }
 
+.event {
+  width: 500px;
+  height: auto;
+}
+
+.event h3 {
+  margin:25px 0px;
+  font-size: 20px;
+  color: rgb(56, 34, 5);
+  text-align: c;
+}
+
+.event p {
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+
+
 .event img {
   max-width: 90%;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: transform 0.3s ease;
+  cursor: pointer;
+  flex-direction: column;
 }
 
 .event img:hover {
   transform: scale(1.05);
 }
-
-.event {
-  width: 350px;
-}
-
-.event h3 {
-  font-size: 3vmin;
-  color: green;
-  margin: 20px;
-}
-
-.sEvents .ctn {
-  margin-top: 30px;
-}
-
-
-
-
-
 
 
 /*facilities*/
