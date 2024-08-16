@@ -215,6 +215,7 @@ li a:hover:not(.active){
   font-weight: 500px;
   line-height: 27px;
   padding: 15px 10px;
+  text-align: justify;
 }
 
 .discover-box:hover {
@@ -246,7 +247,7 @@ li a:hover:not(.active){
 .ev-title .line {
   width: 160px;
   height: 4px;
-  background: #fc036b;
+  background: #f07b5e;
   margin: 3px auto 40px;
   border-radius: 10px;
 }
@@ -273,21 +274,21 @@ li a:hover:not(.active){
 }
 
 .event h3 {
-  margin:25px 0px;
+  margin: 25px 0px;
   font-size: 20px;
   color: rgb(56, 34, 5);
-  text-align: c;
+  text-align: left;
 }
 
 .event p {
   line-height: 30px;
   padding-bottom: 20px;
+  padding-right: 50px;
+  text-align: justify;
 }
 
-
-
 .event img {
-  max-width: 90%;
+  max-width: 80%;
   border-radius: 10px;
   transition: transform 0.3s ease;
   cursor: pointer;
@@ -298,14 +299,28 @@ li a:hover:not(.active){
   transform: scale(1.05);
 }
 
+.event .ctn {
+  padding: 8px 15px;
+  background: #f07b5e;
+  border-radius: 30px;
+  color: white;
+  font-size: 14px;
+}
 
 /*facilities*/
-.facilities {
+#facilities {
   width: 80%;
   margin: auto;
   text-align: center;
   padding-top: 100px;
   position: relative;
+}
+
+.facilities-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
 }
 
 .facilities-col {
@@ -359,7 +374,7 @@ li a:hover:not(.active){
 /* Learn more btn */
 .ctn {
   padding: 8px 15px;
-  background: rgb(243, 114, 114);
+  background: #f07b5e;
   border-radius: 30px;
   color: white;
   font-size: 14px;
