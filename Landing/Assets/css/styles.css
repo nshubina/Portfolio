@@ -24,9 +24,8 @@ header {
 }
 
 /* body */
-body{
-  background-color: #f3d2a6;
-
+body {
+  background-color: #e6d8d9;
 }
 /* was in selector of discover section*/
 
@@ -255,7 +254,7 @@ li a:hover:not(.active){
 }
 
 .ev-title h1 {
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 10px;
   font-family: "DM Serif Display", serif;
 }
@@ -263,7 +262,7 @@ li a:hover:not(.active){
 .events {
   display: flex;
   width: 100%;
-  max-height:60%;
+  max-height: 60%;
   gap: 60px;
   margin-top: 50px;
   justify-content: center;
@@ -306,12 +305,48 @@ li a:hover:not(.active){
   border-radius: 30px;
   color: white;
   font-size: 14px;
-
 }
-.ctn:hover{
+
+.ctn:hover {
   background-color: #eba279;
+}
 
+/* EXPLORE */
+.explore {
+  width: 100%;
+  height: 50%;
+  background-image: url("../images/explre.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
 
+.explore-content {
+  width: 60%;
+  padding: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.explore-content h1 {
+  font-size: 7vmin;
+  margin: 50px;
+}
+
+.explore-content p {
+  color: #fff3f3;
+}
+
+.explore-content .ctn {
+  margin-top: 40px;
+}
+
+.explore-content .line {
+  margin-bottom: 50px;
 }
 
 /*facilities*/
@@ -384,44 +419,6 @@ li a:hover:not(.active){
   font-size: 14px;
 }
 
-/* EXPLORE */
-.explore {
-  width: 100%;
-  height: 50%;
-  background-image: url("../images/leaf.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-}
-
-.explore-content {
-  width: 60%;
-  padding: 50px;
-  color: white;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.explore-content h1 {
-  font-size: 7vmin;
-  margin: 50px;
-}
-
-.explore-content p {
-  color: #fff3f3;
-}
-
-.explore-content .ctn {
-  margin-top: 40px;
-}
-
-.explore-content .line {
-  margin-bottom: 50px;
-}
-
 /* About us */
 
 .about-us-container {
@@ -456,8 +453,8 @@ li a:hover:not(.active){
 /* Questions */
 #questions {
   min-height: 500px;
-  background-image: url("../images/questio.jpg");
-  background-position: bottom center;
+  background-image: url("../images/Questionss.jpg");
+  background-position: center;
   background-size: cover;
 }
 
