@@ -345,16 +345,20 @@ li a:hover:not(.active){
 }
 
 .explore-content .explore-btn {
-  padding: 8px 15px;
+  
+  padding: 10px 15px;
   background: #f07b5e;
   border-radius: 30px;
   color: white;
-  font-size: 14px;
+  font-size: 15px;
   text-align:center;
+  width:125px;
+  font-weight: 500;
 }
+ 
 
 .explore-btn:hover {
-  background-color: #eba279;
+  background-color: #eba279; 
 }
 @media screen and (max-width: 1000px) {
   #explore {
