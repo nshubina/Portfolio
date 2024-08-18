@@ -433,11 +433,6 @@ li a:hover:not(.active){
     width: 100%;
   }
 
-  .about-us-container {
-    flex-direction: column;
-    gap: 30px;
-  }
-
   .footer-container {
     flex-direction: column;
     gap: 16px;
@@ -508,8 +503,28 @@ li a:hover:not(.active){
   font-weight: 500;
 }
 
-.about-us-btnz:hover {
+.about-us-btn:hover {
   background-color: #eba279;
+}
+
+@media screen and (max-width: 940px) {
+  .about-us-container {
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right:20px;
+    padding-left:20px
+
+  }
+  .about-img {
+    width: 60%;
+    height: 500px;
+    float: center;
+    display: flex;
+  }
 }
 
 /* Questions */
