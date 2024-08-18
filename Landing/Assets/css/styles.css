@@ -345,21 +345,20 @@ li a:hover:not(.active){
 }
 
 .explore-content .explore-btn {
-  
   padding: 10px 15px;
   background: #f07b5e;
   border-radius: 30px;
   color: white;
   font-size: 15px;
-  text-align:center;
-  width:125px;
+  text-align: center;
+  width: 125px;
   font-weight: 500;
 }
- 
 
 .explore-btn:hover {
-  background-color: #eba279; 
+  background-color: #eba279;
 }
+
 @media screen and (max-width: 1000px) {
   #explore {
     padding: 70px;
@@ -454,12 +453,15 @@ li a:hover:not(.active){
 }
 
 /* About us */
+#about-us {
+  margin: 50px;
+}
 
 .about-us-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 120px;
+  gap: 10px;
 }
 
 .about-us-content {
@@ -468,20 +470,38 @@ li a:hover:not(.active){
   align-items: start;
   gap: 16px;
   flex-direction: column;
+  align-items: left;
 }
 
 .about-us-content h1 {
   font-family: "Forum", sans-serif;
-  font-size: 30px;
+  font-size: 50px;
+  color: rgb(66, 30, 3);
+  font-family: "DM Serif Display", serif;
 }
 
 .about-img {
   float: right;
   width: 40%;
-  /* max-width: 50%;
   max-height: 20%;
   border-radius: 10px;
-  flex-direction: column;*/
+  flex-direction: column;
+}
+
+.about-us-btn {
+  align-items: left;
+  padding: 10px 15px;
+  background: #f07b5e;
+  border-radius: 30px;
+  color: white;
+  font-size: 15px;
+  width: 125px;
+  text-align: center;
+  font-weight: 500;
+  }
+
+.explore-btn:hover {
+  background-color: #eba279;
 }
 
 /* Questions */
