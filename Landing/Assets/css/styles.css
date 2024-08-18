@@ -382,56 +382,9 @@ li a:hover:not(.active){
   }
 }
 
-/*facilities*/
-#facilities {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  padding-top: 100px;
-  position: relative;
-}
-
-.facilities-container {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  padding-top: 40px;
-}
-
-.facilities-col {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-
-  /*  flex-basis:31%;
-    border-radius:10px;
-    margin-bottom:5%;
-    text-align:left;*/
-}
-
-.facilities-col img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-.facilities-col p {
-  padding: 0;
-  padding-bottom: 30px;
-}
-
-.facilities-col h3 {
-  margin-top: 16px;
-  margin-bottom: 15px;
-  text-align: left;
-}
 
 /* maybe, I need change the max-weight, need adapt*/
 @media screen and (max-width: 600px) {
-  .facilities-col {
-    width: 100%;
-  }
 
   .footer-container {
     flex-direction: column;
