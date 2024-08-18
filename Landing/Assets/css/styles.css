@@ -382,29 +382,10 @@ li a:hover:not(.active){
   }
 }
 
-
-/* maybe, I need change the max-weight, need adapt*/
-@media screen and (max-width: 600px) {
-
-  .footer-container {
-    flex-direction: column;
-    gap: 16px;
-  }
-}
-/* Learn more btn */
-.ctn {
-  padding: 8px 15px;
-  background: #f07b5e;
-  border-radius: 30px;
-  color: white;
-  font-size: 14px;
-}
-
 /* About us */
 
 .about-us-container {
   margin: 40px 90px;
-  margin-right: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -464,13 +445,11 @@ li a:hover:not(.active){
   .about-us-container {
     flex-direction: column;
     gap: 30px;
-    width: 100%;
     margin: 0;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding-right:20px;
-    padding-left:20px
-
+    padding-right: 20px;
+    padding-left: 20px;
   }
   .about-img {
     width: 60%;
@@ -482,16 +461,17 @@ li a:hover:not(.active){
 
 /* Questions */
 #questions {
-  min-height: 500px;
-  background-image: url("../images/Questionss.jpg");
+  background-image: url("../images/qe.jpg");
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .question-container {
-  max-width: 500px;
+  margin: 40px 180px;
+  margin-bottom: 0;
   flex-direction: column;
-  gap: 16px;
+  gap: 20px;
   align-items: center;
   justify-content: center;
   height: 500px;
@@ -499,44 +479,97 @@ li a:hover:not(.active){
   text-align: center;
 }
 
+@media screen and (max-width: 750px) {
+  .question-container {
+    margin: 30px 50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
 .question-container h1 {
   font-size: 50px;
 }
 
-.footer {
-  width: 100%;
-  min-height: 200px;
-  padding: 20px 80px;
-  margin: 0;
-  background: burlywood;
+.question-container p {
+  font-family: "Roboto Slab", serif;
   text-align: center;
+  line-height: 28px;
 }
 
-.footer p {
+.question-container img {
+  max-width: 500px;
+}
+
+.question-btn {
+  align-items: left;
+  padding: 15px 15px;
+  background: #f07b5e;
+  border-radius: 30px;
   color: white;
-  margin: 20px auto;
-  padding: 20px auto;
+  font-size: 15px;
+  width: 150px;
+  text-align: center;
+  font-weight: 500;
 }
 
-/*FOOTER*/
+.question-btn:hover {
+  background-color: #eba279;
+}
+
+/*FOOTER */
+
 footer {
-  margin-top: 60px;
+  background-color: #796f63;
 }
 
 .footer-container {
-  display: flex;
-  padding: 20px 16px;
-  justify-content: space-between;
-  align-items: center;
+  width: 100%;
+  justify-content: center;
+
+.footer-nav {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.footer-links {
+.footer-nav ul {
   display: flex;
-  align-items: center;
-  gap: 16px;
-  list-style: none;
+  justify-content: center;
+  list-style-type: none;
 }
 
-.footer-img {
-  width: 10%;
+.footer-nav ul li a {
+  color: white;
+  margin: 20px;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
 }
+
+.footer-nav ul li a:hover {
+  opacity: 1;
+  color:#382205
+}
+
+.footer-bottom {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  color: white;
+  line-height:36px;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .footer-nav ul {
+    flex-direction: column;
+  }
+  .footer-nav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+}}
