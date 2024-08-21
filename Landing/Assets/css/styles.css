@@ -49,6 +49,7 @@ body {
   padding: 0;
   overflow: hidden;
   float: left;
+  margin: 0px 40px;
 }
 
 .navlist a {
