@@ -84,16 +84,13 @@ li a:hover:not(.active) {
   border-radius: 10%;
   transition: 0.4s;
 }
-
+ 
 input {
   display: none;
 }
 
-label{
-  display: none;
-}
 
-input:checked ~ .navlist{
+input:checked ~ .navlist {
   transform: translateY(0);
 }
 
@@ -113,10 +110,9 @@ input:checked ~ .navbar-toggler .bar:nth-child(2) {
 input:checked ~ .navbar-toggler .bar:nth-child(3) {
   transform: rotate(-45deg);
 }
-
-
-
+ 
 /*Mobile device*/
+ 
 @media (max-width: 750px) {
   .navbar {
     padding-right: 35px;
@@ -155,10 +151,18 @@ input:checked ~ .navbar-toggler .bar:nth-child(3) {
   .navbar-toggler {
     display: grid !important;
   }
+} 
+ 
 
 
 
-}  
+
+
+
+
+
+
+
 
 
 
