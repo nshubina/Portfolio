@@ -22,7 +22,7 @@ body {
 }
 
 .active {
-  background-color: rgb(250, 219, 161);
+  background-color: rgb(232, 211, 175);
   font-weight: 500;
   border-radius: 10px;
 }
@@ -57,16 +57,13 @@ body {
   display: block;
   padding: 10px 16px;
   text-decoration: none;
-  border-radius: 7px;
-  font-size: 15x;
-  font-weight: 600;
-
-  border-bottom: 2px solid transparent;
+  border-radius: 10px;
+  font-size: 16px;
   transition: all 0.15s ease;
 }
 
 li a:hover:not(.active) {
-  background-color: rgb(183, 174, 162);
+  background-color: rgb(178, 152, 121);
 }
 
 .navbar-toggler {
@@ -87,29 +84,33 @@ li a:hover:not(.active) {
 
 .menu-btn {
   position: absolute;
-  top: 30px;
+  top: 34px;
   right: 30px;
   width: 30px;
   cursor: pointer;
   display: none;
 }
 
-/*Mobile device*/
+/* Navbar for Mobile device */
 
 @media (max-width: 750px) {
   .menu-btn {
     display: block;
-
   }
 
   .navbar {
     padding: 0;
   }
 
+  .active{ 
+    background-color: rgb(202, 178, 201);
+  }
+
   .logo {
     position: absolute;
     top: 5px;
   }
+
   .navlist {
     flex-direction: column;
     width: 100%;
@@ -117,6 +118,10 @@ li a:hover:not(.active) {
     justify-content: center;
     background: rgb(235, 210, 210);
     margin-top: -900px;
+  }
+
+  .navlist a{
+    font-size:22px;
   }
 
   .navlist li {
