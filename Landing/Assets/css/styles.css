@@ -224,6 +224,7 @@ header {
   padding-top: 20px;
   padding-bottom: 10px;
   font-family: "DM Serif Display", serif;
+  letter-spacing: 3px;
 }
 
 .events {
@@ -272,7 +273,6 @@ header {
   color: white;
   background: #f07b5e;  
   border-radius: 30px;
-  
   font-size: 14px;
 }
 
@@ -350,7 +350,6 @@ header {
 }
 
 /* Discover */
-
 #discover {
   overflow: hidden;
 }
@@ -367,7 +366,8 @@ header {
   font-weight: 600;
   color: rgb(56, 34, 5);
   font-family: "DM Serif Display", serif;
-}
+  letter-spacing: 5px;
+ }
 
 .discover-header p {
   color: rgb(56, 34, 5);
@@ -396,7 +396,7 @@ header {
 
 .discover-box h3 {
   color: rgb(56, 34, 5);
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 900;
   text-align: center;
   margin: 10px 0;
@@ -412,15 +412,15 @@ header {
 }
 
 .discover-box:hover {
-  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
 }
 
+/* Mobile discover block */
 @media (max-width: 800px) {
   .discover-content {
     flex-direction: column;
   }
 }
-
 
 /* EXPLORE */
 #explore {
