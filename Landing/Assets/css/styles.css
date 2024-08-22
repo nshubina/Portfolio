@@ -16,8 +16,15 @@ html {
 }
 
 body {
-  background-color: #e6d8d9;
-}
+  background-color: #e6d8d9;background: rgb(81,99,92);
+  background: linear-gradient(90deg, rgba(81,99,92,1) 0%, rgba(201,219,216,1) 52%, rgba(53,79,70,1) 98%);
+  background: rgb(74,88,82);
+  background: linear-gradient(90deg, rgba(74,88,82,1) 0%, rgba(172,187,185,1) 52%, rgba(53,79,70,1) 98%);
+
+  background: rgb(60,69,65);
+  background: linear-gradient(90deg, rgba(60,69,65,1) 0%, rgba(156,181,155,1) 51%, rgba(41,59,52,1) 98%);
+
+
 
 /*common btn READ MORE*/
 .read-more-btn {
@@ -488,7 +495,7 @@ header {
 
 /* About us */
 .about-us-container {
-  margin: 40px 170px;
+  margin: 40px 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -529,30 +536,31 @@ header {
   border-radius: 10px;
   flex-direction: column;
 }
- 
 
 @media screen and (max-width: 940px) {
+  .about-us-container {
+    margin: 0;
+    padding: 0;
+  }
+
+  .about-us-container {
+    flex-direction: column;
+    gap: 30px;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+  }
+
   .about-img {
     width: 60%;
     height: 500px;
     float: center;
     display: flex;
-  } 
-  
-  .about-us-container {
-    flex-direction: column;
-    gap: 30px;
-    margin: 0;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width:80%;
-    text-align: left;
   }
-
 }
 
 @media screen and (max-width: 750px) {
-   .about-us-container {
+  .about-us-container {
     flex-direction: column;
     gap: 30px;
     margin: 0;
@@ -560,7 +568,13 @@ header {
     margin-bottom: 30px;
     padding-right: 55px;
     padding-left: 60px;
-  }}
+  }
+
+  .about-img {
+    width: 80%;
+    height: 500px;
+  }
+}
 /* Questions */
 #questions {
   background-image: linear-gradient(
@@ -580,10 +594,9 @@ header {
   gap: 20px;
   align-items: center;
   justify-content: center;
-  height: 450px;
+  height: 500px;
   display: flex;
   text-align: center;
-  
 }
 
 .question-content h1 {
@@ -596,7 +609,6 @@ header {
 }
 
 .question-content p {
-  width: 600px;
   font-family: "Roboto Slab", serif;
   text-align: center;
   line-height: 28px;
@@ -618,8 +630,16 @@ header {
     padding-bottom: 0;
   }
 
-  .question-content{
-    padding:20px;
+  .question-container h1 {
+    padding-top: 20px;
+  }
+
+  .question-content {
+    padding: 20px;
+  }
+
+  .question-content {
+    padding-bottom: 40px;
   }
 }
 
