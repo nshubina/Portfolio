@@ -11,7 +11,7 @@
   text-decoration: none;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -121,8 +121,7 @@ li a:hover:not(.active) {
   }
   .navlist a {
     font-size: 22px;
-    color:#585748;
-
+    color: #585748;
   }
   .navlist li {
     margin: 30px auto;
@@ -132,7 +131,7 @@ li a:hover:not(.active) {
     border-bottom-right-radius: 30%;
   }
   li a:hover:not(.active) {
-    background-color: rgb(196, 181, 194) ;
+    background-color: rgb(196, 181, 194);
   }
 }
 
@@ -194,11 +193,106 @@ header {
 
 /* Header for Mobile device */
 @media (max-width: 750px) {
-.header-content h1 {
-  font-size: 50px;
-}
+  .header-content h1 {
+    font-size: 50px;
+  }
 }
 
+/* EVENTS */
+.events-container {
+  margin-top: 20px;
+  padding-bottom: 60px;
+}
+
+.ev-title {
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(56, 34, 5);
+  font-weight: 600px;
+}
+
+.ev-title .line {
+  width: 160px;
+  height: 4px;
+  background: #f07b5e;
+  margin: 3px auto 40px;
+  border-radius: 10px;
+}
+
+.ev-title h1 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: "DM Serif Display", serif;
+}
+
+.events {
+  display: flex;
+  width: 100%;
+  gap: 60px;
+  margin-top: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.event {
+  width: 300px;
+  height: auto;
+  margin:0 20px ;
+
+}
+
+.event h3 {
+  margin: 25px 0px;
+  font-size: 20px;
+  color: #382205;
+  text-align: left;
+}
+
+.event p {
+  line-height: 30px;
+  padding-bottom: 20px;
+  text-align: justify;
+  position: relative;
+}
+
+.event img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.event img:hover {
+  transform: scale(1.05);
+}
+
+.event .read-more-btn {
+  padding: 8px 15px;
+  color: white;
+  background: #f07b5e;  
+  border-radius: 30px;
+  
+  font-size: 14px;
+}
+
+.read-more-btn:hover {
+  background-color: #eba279;
+}
+
+/* Event for mobile device */
+@media (max-width: 750px) {
+  .ev-title h1 {
+    font-size: 30px;
+    padding-top:0;
+  }
+  .ev-title .line {
+    margin: 3px auto 30px;
+  }
+  .events {
+    margin-top: 20px;
+  }
+}
 
 /* Discover */
 
@@ -270,87 +364,6 @@ header {
   .discover-content {
     flex-direction: column;
   }
-}
-
-/*Events*/
-.events-container {
-  margin: auto;
-  padding-bottom: 60px;
-}
-
-.ev-title {
-  margin: auto;
-  width: 80%;
-  text-align: center;
-  font-size: 4vmin;
-  color: rgb(56, 34, 5);
-  font-weight: 600px;
-}
-
-.ev-title .line {
-  width: 160px;
-  height: 4px;
-  background: #f07b5e;
-  margin: 3px auto 40px;
-  border-radius: 10px;
-}
-
-.ev-title h1 {
-  padding-top: 20px;
-  padding-bottom: 10px;
-  font-family: "DM Serif Display", serif;
-}
-
-.events {
-  display: flex;
-  width: 100%;
-  max-height: 60%;
-  gap: 60px;
-  margin-top: 50px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.event {
-  width: 400px;
-  height: auto;
-}
-
-.event h3 {
-  margin: 25px 0px;
-  font-size: 20px;
-  color: #382205;
-  text-align: left;
-}
-
-.event p {
-  line-height: 30px;
-  padding-bottom: 20px;
-  text-align: justify;
-  position: relative;
-}
-
-.event img {
-  max-width: 100%;
-  border-radius: 10px;
-  transition: transform 0.3s ease;
-  cursor: pointer;
-}
-
-.event img:hover {
-  transform: scale(1.05);
-}
-
-.event .ctn {
-  padding: 8px 15px;
-  background: #f07b5e;
-  border-radius: 30px;
-  color: white;
-  font-size: 14px;
-}
-
-.ctn:hover {
-  background-color: #eba279;
 }
 
 /* INTRO  */
