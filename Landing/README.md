@@ -1,4 +1,4 @@
-Hi! 
+Hi!
 Now you can view a sourse code for my landing page :)
 
 I’ve also included a screenshot and a GIF file, so you can see the site without needing to download the source code.
