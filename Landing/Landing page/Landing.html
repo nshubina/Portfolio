@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Landing page</title>
+  <link rel="icon" type="image/x-icon" href=".\Assets\images\favicon.ico" />
+  <link rel="stylesheet" href="./Assets/css/styles.css" />
+</head>
+
+<body>
+  <div class="navbar">
+    <img src="./Assets/images/logo.png " alt="logo" class="logo" />
+    <ul class="navlist">
+      <li class="active"><a href="#Home">Home</a></li>
+      <li><a href="#">Events</a></li>
+      <li><a href="#">Explore</a></li>
+      <li><a href="#">About Us</a></li>
+    </ul>
+    <img src="./Assets/images/kebab.png" alt="menu" class="menu-btn" />
+  </div>
+
+  <script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.navlist')
+
+    menuBtn.addEventListener('click', () => {
+      navlinks.classList.toggle('mobile-menu')
+    })
+  </script>
+
+  <header>
+    <div class="header-content">
+      <h1>Reveal the Beauty of Nature</h1>
+      <p>
+        Explore the wonders of the wild, and experience the beauty all around
+        you
+      </p>
+      <a href="#events" class="header-button">Read more</a>
+    </div>
+  </header>
+
+
+  <!--EVENTS-->
+  <section class="events-section">
+    <div class="events-container">
+      <div class="ev-title">
+        <h1 id="events">Future Events</h1>
+        <div class="line"></div>
+      </div>
+      <div class="events">
+        <div class="event">
+          <img src="./Assets/images/camping-evnt.jpg" alt="event-photo" />
+          <h3>Camping Under the Sky</h3>
+          <p>
+            Enjoy a night of camping beneath the stars with campfire
+            storytelling, stargazing, and outdoor fun. Perfect for families
+            and friends, this event offers a memorable outdoor experience.
+            Bring your camping gear and get ready for a night of nature and
+            adventure.
+          </p>
+          <a href="#" class="read-more-btn">Read More</a>
+        </div>
+        <div class="event">
+          <img src="./Assets/images/hiking-event.jpg" alt="event-img" />
+          <h3>Hiking in nature</h3>
+          <p>
+            Join us for a refreshing hike through beautiful trails. Our guides
+            will lead you through stunning landscapes and share insights about
+            local wildlife. Ideal for all skill levels, this hike is a great
+            way to enjoy the outdoors and connect with nature.
+          </p>
+          <a href="#" class="read-more-btn">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Introduce  nature -->
+  <section id="intro">
+    <div class="intro-content">
+      <h1>INTRODUCE NATURE</h1>
+      <p>Dive into the captivating world of nature's marvels.</p>
+    </div>
+  </section>
+
+  <!---- Discover ---->
+  <section id="discover">
+    <div class="discover-container">
+      <div class="discover-header">
+        <h1>Discover Our World</h1>
+        <p>
+          Unleash your inner explorer and immerse yourself in the wonders of
+          the natural world.
+        </p>
+      </div>
+      <div class="discover-content">
+        <div class="discover-box">
+          <h3>Find Your Adventure</h3>
+          <p>
+            Search for trails that suit your mood and ability, whether you’re
+            up for a tough hike or a gentle stroll. Discover a variety of
+            local events, interactive workshops, and exciting tours that will
+            enrich your outdoor time. Get a personal gear suggestions to help
+            you find the right equipment.
+          </p>
+        </div>
+        <div class="discover-box">
+          <h3>Be a Nature Steward</h3>
+          <p>
+            Join us in making a difference with local conservation events,
+            hands-on workshops, and guided tours that highlight environmental
+            care. Learn more about wildlife protection, we provide the
+            resources and opportunities to help you actively contribute to
+            preserving our natural world.
+          </p>
+        </div>
+        <div class="discover-box">
+          <h3>Get Involved</h3>
+          <p>
+            Explore top gear recommendations that support your outdoor
+            adventures while promoting sustainability. From choosing the
+            perfect hiking boots to selecting essential camping equipment, we
+            guide you in finding the best products to enjoy nature
+            responsibly.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--EXPLORE-->
+  <section id="explore">
+    <div class="explore-content">
+      <h1>EXPLORE THE WORLD</h1>
+      <p>
+        Discover the endless wonders our planet has to offer. From serene
+        landscapes and ancient ruins to vibrant cities and diverse cultures,
+        each destination tells its own unique story. Embrace adventure, taste
+        new cuisines, and gain fresh perspectives. Let curiosity be your guide
+        as you embark on a journey that reveals not just the world’s beauty
+        but also new dimensions of yourself.
+      </p>
+      <a href="#" class="read-more-btn"> Read more</a>
+    </div>
+  </section>
+
+  <!-- About us -->
+  <section id="about-us">
+    <div class="about-us-container">
+      <div class="about-us-content">
+        <h1>ABOUT US</h1>
+        <p>
+          Welcome to Nature's Canvas, where we celebrate the beauty and
+          wonder of the natural world.Our mission is to inspire and connect
+          individuals with nature, encouraging a deeper appreciation for
+          the environment and a commitment to its preservation.
+          <br> <br>
+          At Nature's Canvas we believe that nature has the power to rejuvenate
+          and transform us. Whether you're an avid explorer, a casual hiker, or
+          simply someone who enjoys the serenity of natural landscapes,
+          our goal is to provide you with the resources and inspiration you
+          need to enrich your outdoor experiences.
+        </p>
+        <a href="#" class="read-more-btn">Read more</a>
+      </div>
+      <img src="./Assets/images/about-us.jpg" class="about-img" />
+    </div>
+    </div>
+  </section>
+
+  <!-- QUESTIONS -->
+  <section id="questions">
+    <div class="question-container">
+      <div class="question-content">
+        <h1>QUESTIONS?</h1>
+        <p>
+          Whether you’re curious about our nature adventures, need advice on
+          planning your next trip, or have any other inquiries, we’re here to assist you.
+          Feel free to reach out with your questions, and our team will provide you with
+          the information you need. Your satisfaction and experience are our top priorities.
+        </p>
+        <a href="#" class="read-more-btn">Need Help?</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-bottom">
+        <p>Copyright &copy; 2024 </p>
+        <p>Designed by <span class="designer"> Nataliia Shubina</span></p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
