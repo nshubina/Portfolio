@@ -16,17 +16,10 @@ html {
 }
 
 body {
-  background-color: #e6d8d9;background: rgb(81,99,92);
-  background: linear-gradient(90deg, rgba(81,99,92,1) 0%, rgba(201,219,216,1) 52%, rgba(53,79,70,1) 98%);
-  background: rgb(74,88,82);
-  background: linear-gradient(90deg, rgba(74,88,82,1) 0%, rgba(172,187,185,1) 52%, rgba(53,79,70,1) 98%);
+  background: rgb(224, 220, 220);
+}
 
-  background: rgb(60,69,65);
-  background: linear-gradient(90deg, rgba(60,69,65,1) 0%, rgba(156,181,155,1) 51%, rgba(41,59,52,1) 98%);
-
-
-
-/*common btn READ MORE*/
+/* READ MORE btn */
 .read-more-btn {
   align-items: left;
   padding: 10px 15px;
@@ -120,7 +113,7 @@ li a:hover:not(.active) {
   display: none;
 }
 
-/* Navbar for Mobile device */
+/* Navbar - Mobile device */
 @media (max-width: 750px) {
   .menu-btn {
     display: block;
@@ -162,7 +155,7 @@ li a:hover:not(.active) {
 /* Header */
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/1.jpg");
+    url("../images/background-header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -291,7 +284,7 @@ header {
   transform: scale(1.05);
 }
 
-/* Event for mobile device */
+/* Event - mobile device */
 @media (max-width: 750px) {
   .ev-title h1 {
     font-size: 30px;
@@ -321,7 +314,7 @@ header {
 }
 
 .intro-content {
-  color: rgb(240, 217, 205);
+  color: rgb(145, 136, 132);
   display: flex;
   flex-direction: column;
   outline-style: solid;
@@ -331,9 +324,9 @@ header {
 .intro-content h1 {
   font-size: 40px;
   padding: 20px 0;
-  font-weight: 700;
+  font-weight: 900;
   letter-spacing: 15px;
-  color: #d6b1b1;
+  color: #c4b3ad;
   font-family: "DM Serif Display", serif;
 }
 
@@ -395,7 +388,7 @@ header {
 
 .discover-box {
   flex-basis: 31%;
-  background: #fff3f3;
+  background: #cac7c7;
   border-radius: 15px;
   margin-bottom: 5%;
   padding: 20px;
@@ -435,10 +428,10 @@ header {
 /* EXPLORE */
 #explore {
   background-image: linear-gradient(
-      rgba(243, 240, 225, 0.5),
-      rgba(17, 17, 17, 0.7)
+      rgba(243, 240, 225, 0.2),
+      rgba(17, 17, 17, 0.9)
     ),
-    url("../images/explo.jpg");
+    url("../images/explore.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -495,7 +488,7 @@ header {
 
 /* About us */
 .about-us-container {
-  margin: 40px 80px;
+  margin: 40px 122px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -575,13 +568,14 @@ header {
     height: 500px;
   }
 }
-/* Questions */
+
+/* QUESTIONS */
 #questions {
   background-image: linear-gradient(
-      rgba(150, 149, 147, 0.5),
+      rgba(82, 119, 108, 0.5),
       rgba(17, 17, 17, 0.7)
     ),
-    url("../images/q.jpg");
+    url("../images/question.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -615,7 +609,7 @@ header {
   color: rgb(206, 204, 204);
   line-height: 32px;
   font-weight: 500;
-  font: 16px;
+  font-size: 19px;
   padding-bottom: 40px;
 }
 
@@ -645,57 +639,24 @@ header {
 
 /*FOOTER */
 footer {
-  background-color: #796f63;
+  background: rgb(27, 37, 31);
+  border-top-color: red;
 }
 
 .footer-container {
   width: 100%;
   justify-content: center;
-
-  .footer-nav {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  .footer-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-  }
-
-  .footer-nav ul li a {
-    color: white;
-    margin: 20px;
-    font-size: 1.3em;
-    opacity: 0.7;
-    transition: 0.5s;
-  }
-
-  .footer-nav ul li a:hover {
-    opacity: 1;
-    color: #382205;
-  }
-
-  .footer-bottom {
-    background-color: #303d3b;
-    padding: 20px;
-    text-align: center;
-  }
-
-  .footer-bottom p {
-    color: white;
-    line-height: 36px;
-    text-align: center;
-  }
-
-  @media (max-width: 700px) {
-    .footer-nav ul {
-      flex-direction: column;
-    }
-    .footer-nav ul li {
-      width: 100%;
-      text-align: center;
-      margin: 10px;
-    }
-  }
 }
+
+.footer-bottom {
+  text-align: center;
+  padding: 30px;
+}
+
+.footer-bottom p {
+  color: rgb(185, 176, 176);
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+} 
