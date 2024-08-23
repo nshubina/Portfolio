@@ -1,8 +1,8 @@
-Hi!
+Hi! 👋
 
-Now you can view a sourse code for my landing page :)
+Now you can view a sourse code for my landing page :) 🖼️
 
-I’ve also included a screenshot and a GIF file, so you can see the site without needing to download the source code.
+I’ve also included a screenshot and a GIF file, so you can see the site without needing to download the source code. 📎
 
 This landing page was created to enhance my web design and development skills and to gain a better understanding of testing challenges. HTML was used to set up the page layout, dividing it into sections like the header and events. For styling, CSS was applied to focus on fonts, colors, and overall visual appeal.
 
