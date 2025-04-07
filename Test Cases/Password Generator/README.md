@@ -8,17 +8,20 @@
 <h1>Requirements for the generator:</h1>
 <ol>
   <li>
-    Upon clicking the “Generate password” button, the generator should provide 10 possible password options that meet the specified conditions.
+    Upon clicking the “Generate password” button, the generator should provide <b>10 possible password options</b> that meet the specified conditions.
   </li>
+     <br>
   <li>
-    The generated passwords must consist of the selected character groups:
+    The generated passwords must consist of the <b>selected character groups</b>:
     <ul> 
       <li>Digits;</li>
       <li>Uppercase letters;</li>
       <li> Lowercase letters;</li>
       <li>Special characters: %, *, ), ?, @, #, $, ~</li>
     </ul>
-
+    <br>
+  <li>Each password must include <b>at least one character</b> from each selected group.</li>
+  <br>
 
 
    
