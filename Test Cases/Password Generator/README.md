@@ -4,3 +4,8 @@
 </br>
 
 ![Generate password](https://github.com/user-attachments/assets/34870cbd-1a8e-4408-bd60-9516423b273c)
+
+<h1>Requirements for the generator:</h1>
+<ol>
+  <li>Upon clicking the “Create Password” button, the generator should provide 10 possible password options that meet the specified conditions.</li>
+  </ol>
