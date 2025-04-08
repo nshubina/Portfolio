@@ -23,6 +23,8 @@
     <br>
   <li>Each password must include <b>at least one character</b> from each selected group.</li>
   <br>
+  <li>The <b>length of the generated password</b> must correspond to the number entered in the corresponding text field. <br>
+   <i>The minimum length is 8 characters</i>.</li>
 
 
    
