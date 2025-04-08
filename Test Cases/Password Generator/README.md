@@ -26,8 +26,10 @@
   <li>The <b>length of the generated password</b> must correspond to the number entered in the corresponding text field. <br>
    <i>The minimum length is 8 characters</i>.</li>
    <br>
-   <li>On repeated clicking of the “Generate Password” button, <b>new passwords must be generated</b>.</li>
-
+   <li>On repeated clicking of the “Generate Password” button, the application should generate <b>new passwords </b>.</li>
+   <br>
+   <li>There is no need to additionally check the quality of random value generation.</li>
+  <br>
 
    
     
