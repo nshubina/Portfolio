@@ -28,8 +28,23 @@
    <br>
    <li>On repeated clicking of the “Generate Password” button, the application should generate <b>new passwords </b>.</li>
    <br>
-   <li>There is no need to additionally check the quality of random value generation.</li>
-  <br>
+   <li>There is <b>no need to additionally check</b> the quality of random value generation.</li>
+   <br>
+   <li><b>By default</b>, the following character groups are enabled in the generator:
+     <ul>
+       <li>Digits;</li>
+       <li>Uppercase letters;</li>
+       <li>Lowercase letters;</li>
+       <li>The <b>default length</b> is set to 8 characters.</li>
+     </ul>
+   </li>
+    
+
+    
+
+    
+
+    
 
    
     
