@@ -33,13 +33,19 @@
       <br>
       <li>There is <b>no need to additionally check</b> the quality of random value generation.</li>
       <br>
-      <li><b>By default</b>, the following character groups are enabled in the generator:
-         <ul>
-           <li>Digits;</li>
-           <li>Uppercase letters;</li>
-           <li>Lowercase letters;</li>
-           <li>The <b>default length</b> is set to 8 characters.</li>
-         </ul>
+      <li><b>By default</b>, the app uses the following settings:
+       <ul>
+        <i>Character group:</i>
+           <ul>
+               <li>Digits;</li>
+               <li>Uppercase letters;</li>
+               <li>Lowercase letters;</li>
+           </ul>
+         <i>Password length:</i>
+            <ul>   
+               <li>The length is set to 8 characters.</li>
+            </ul>
+       </ul>
      </li> 
     </ol>
   </div>
