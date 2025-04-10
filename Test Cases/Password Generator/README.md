@@ -1,7 +1,7 @@
 <h1>Task:</h1>
 
 <div>
-  <p>Develop a set of 10 test cases to verify the correct functionality of the password generator.</p>
+  <p>Develop a set of 12 test cases to verify the correct functionality of the password generator.</p>
 </div>
 
 <h2>Application image:</h2>
