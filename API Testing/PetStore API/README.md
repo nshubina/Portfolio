@@ -5,10 +5,8 @@
   </p>
   <p>The collection contains different requests for API and tests for check responces. In the "Tests" folder, I placed tests written for Pet API, Store API, and User API. My tests are designed to verify the accuracy and reliability of select requests.
   </p>
-  <p>
-    
+ 
   ![image](https://github.com/user-attachments/assets/3a78054f-b4dc-4078-a0c9-09da73866fa0)
-  </p>
 
   
   </br>
