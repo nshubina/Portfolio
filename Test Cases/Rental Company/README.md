@@ -12,5 +12,5 @@
 
   <p>Based on the created decision tables, I started developing test cases.</p>
 
-  <p> You can see with full documen </p>
+  <p> You can see with full document: <a href="https://docs.google.com/spreadsheets/d/1D6ICuvUaFa8YBLdcuh6Lf09aHThrB5AEp91OdDOtreQ/edit?usp=sharing" target="_blank">Google Sheet document with RTMatrix, Tables decision and Test cases</a> </p>
 </div> 
