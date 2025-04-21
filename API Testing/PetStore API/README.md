@@ -1,6 +1,7 @@
 <h1>Welcome to the PetStore API folder!</h1>
 <div>
-<p>In this folder you will find the "PetStore API" collection and its environment settings. Additionally, you can see a test matrix based on the Swagger documentation.</p>
+<p>In the <b><a href="https://github.com/nshubina/Portfolio/tree/a90f03b829b8e911c8094a874b3179af13f277a6/API%20Testing/PetStore%20API/source" target="_blank">source</a></b> folder you will find the "PetStore API" collection and its environment settings in json-files. </p>
+<p>Additionally, you can see a test matrix based on the Swagger documentation.</p>
 <p>The collection contains different requests for API and tests. In the "Tests" folder, I placed tests written for Pet API, Store API, and User API. My tests are designed to verify the accuracy and reliability of select requests.</p>
 </br>
 <p>Link to the <a href="https://petstore.swagger.io/" target= "_blank"> PetStore API (Swagger)</a>. </p>
