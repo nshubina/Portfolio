@@ -10,3 +10,5 @@ The map reflects the structure of the website, showing the main pages and the tr
 <br><br>
 <a href="https://miro.com/app/board/uXjVLzNDMnE=/?share_link_id=612734966371" target="_blank">Bookstore Application Mind Map</a>
 
+![image](https://github.com/user-attachments/assets/25fdc0de-068c-463c-a57b-44242bf9cf13)
+
