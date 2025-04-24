@@ -13,3 +13,5 @@
 <p> Below I demonstrate a mind map of the application. <br>
 The map reflects the structure of the website, showing the main pages and the transitions between them from the user's point of view.</p>
 <a href="https://miro.com/app/board/uXjVLzNDMnE=/?share_link_id=612734966371" target="_blank">Bookstore Application Mind Map</a>
+
+![image](https://github.com/user-attachments/assets/32376403-2977-4b82-b2f0-72dcd4232763)
