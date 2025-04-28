@@ -2,6 +2,7 @@
 
 <p>I work with the message object. I create the state transition diagram to explore all available states and actions. Also I create tables for found missed states or actions.</p>
 
+<p> This technique help me to make my testing process dipper.  </p>
 
 
 <a href="https://miro.com/app/board/uXjVM4hdL9w=/?share_link_id=937822756768" target="_blank">State Transition Diagram in Miro:</a>
