@@ -9,4 +9,9 @@ The checklist is as follows: </p>
   <li>Are all dependencies and restrictions specified?</li>
   <li>Are alternatives specified for all options?</li> 
 </ol>
-<p>Make a list of potential defects in the specification, noting the severity level of each (High, Medium, or Low). Note which checklist question has found the defect.</p>
+<p>Make a list of potential defects in the specification, noting the severity level of each (High, Medium, or Low). 
+  Note which checklist question has found the defect.</p>
+
+<h1>Solution:</h1>
+<p> You can view the solution in Google Sheets: <a href="https://docs.google.com/spreadsheets/d/1zvXy7c53vkJGOK1HFFpyrAqLX2gu-PKmlX2zIAMi29A/edit?usp=sharing target="_blank"> Link </a>
+</p>
