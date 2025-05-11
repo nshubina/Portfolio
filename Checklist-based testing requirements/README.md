@@ -1,8 +1,8 @@
+<div>
 <h1> 📋 Functional specification review using a checklist</h1>
-<p></p>
 
 <h1>Task</h1>
-<p>Perform an individual checklist-based review of the specifications for 'Browsing Facilities', 'Selecting a Facility', 'Booking Details', and 'Payment Details'.
+<p>Perform an individual checklist-based review of the specifications for <i>'Browsing Facilities', 'Selecting a Facility', 'Booking Details', and 'Payment Details'</i>.
 The checklist is as follows: </p>
 <ol>
   <li>Do all requirements give sufficient detail needed for determining the expected results for tests?</li>
@@ -25,7 +25,7 @@ The checklist is as follows: </p>
     Reviewed how users select a facility and time slots.
 
     Assessed confirmation flow and user interaction logic.
-
+</div>
     Identified unclear UI elements and missing behavior descriptions.
 
 🐞 Result: Several potential defects were identified, including missing details about availability rules, time slot selection, and confirmation message behavior.
