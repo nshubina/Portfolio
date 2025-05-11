@@ -1,8 +1,8 @@
-<h1> Here is checklist-based testing requirements folder</h1>
+<h1> 📋 Functional specification review using a checklist</h1>
 <p></p>
 
-<h1>TASK</h1>
-<p>Perform an individual review of the functional specification (shown below), using a checklist-based review.
+<h1>Task</h1>
+<p>Perform an individual checklist-based review of the specifications for 'Browsing Facilities', 'Selecting a Facility', 'Booking Details', and 'Payment Details'.
 The checklist is as follows: </p>
 <ol>
   <li>Do all requirements give sufficient detail needed for determining the expected results for tests?</li>
