@@ -15,3 +15,19 @@ The checklist is as follows: </p>
 <h1>Solution:</h1>
 <p> You can view the solution in Google Sheets: <a href="https://docs.google.com/spreadsheets/d/1zvXy7c53vkJGOK1HFFpyrAqLX2gu-PKmlX2zIAMi29A/edit?usp=sharing target="_blank"> Link </a>
 </p>
+
+🔍 Task Focus: Reviewing the functional specification for the Selecting a Facility feature in a booking system.
+
+📝 Goal: To evaluate whether the requirements are complete, clear, and testable.
+
+📋 Activities:
+
+    Reviewed how users select a facility and time slots.
+
+    Assessed confirmation flow and user interaction logic.
+
+    Identified unclear UI elements and missing behavior descriptions.
+
+🐞 Result: Several potential defects were identified, including missing details about availability rules, time slot selection, and confirmation message behavior.
+
+⚠️ These gaps may lead to inconsistent implementation and difficulties in testing.
