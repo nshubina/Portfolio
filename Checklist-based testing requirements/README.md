@@ -1,7 +1,7 @@
 <div>
   <h1> 📋 Functional specification review using a checklist</h1>
   
-  <h1>Task</h1>
+  <h1>🔎Task</h1>
   <p>Perform an individual checklist-based review of the specifications for <i>'Browsing Facilities', 'Selecting a Facility', 'Booking Details', and 'Payment Details'</i>.</p>
   <p>Your solution should contain a <b>checklist-based review</b> with answers to the following questions: </p>
   
@@ -14,7 +14,7 @@
   <p> Make a <b>list of potential defects</b> in the specification, noting the severity level of each (High, Medium, or Low).<br>
       Note which checklist question has found the defect.</p>
 
-<h1>Solution:</h1>
+<h1>✅ My Solution :</h1>
 <p> You can view the solution in Google Sheets at the link: <a href="https://docs.google.com/spreadsheets/d/1zvXy7c53vkJGOK1HFFpyrAqLX2gu-PKmlX2zIAMi29A/edit?usp=sharing target="_blank"> My solution </a>.
 </p>
 
