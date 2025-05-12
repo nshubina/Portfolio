@@ -32,10 +32,14 @@
       <li> Created a list of potential defects categorized by severity (High, Medium, Low) and mapped each to the related checklist question.</li>
       <li> Write a brief summary of the requirements problem for each functional module.</li>
   </ol> 
-  <h3>About documents in the folder:</h3>
-  
-  (Checklist-based testing-<i>{{Name of module}}</i>.pdf
- (Checklist-based testing-<i>{{Name of module}}</i>-Answer.pdf)
-
+  <h2> About documents in the folder:</h2>
+  <ul> 
+    <li><b>'Checklist-based testing-<i>{{Name of module}}</i>.pdf'</b></li>
+    <p> These documents contain a checklist for reviewing the requirements, along with a list of clarifying questions.</p>
+  </ul>
+  <ul> 
+    <li><b>'Checklist-based testing-<i>{{Name of module}}</i>-Answer.pdf'</b></li> 
+    <p> These documents includes the checklist-based review, a list of potential defects linked to checklist items, and a brief summary.</p>
+  </ul>
 
 </div>
