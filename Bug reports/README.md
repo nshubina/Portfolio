@@ -8,7 +8,7 @@
       <br>
       <li> The Book Store bug reports were created in Google Sheets📝. </li>
     </ul>
-    <p> Link to bug reports in Google sheet <a href="https://docs.google.com/spreadsheets/d/1oprHB6L1n0X1c3QTfigsK5AcIUwJCT3QBjTxKwp6fD4/edit?usp=sharing" target="_blank"> here.</a></p>
+    <h4> Link to bug reports in Google sheet <a href="https://docs.google.com/spreadsheets/d/1oprHB6L1n0X1c3QTfigsK5AcIUwJCT3QBjTxKwp6fD4/edit?usp=sharing" target="_blank"> here.</a></h4>
     <h2> Overview bug reports</h2>
     <h3> 📑Testomat.io application </h3>
     <p> Each Testomat.io bug report was identified during the execution of planned test cases within a structured test run.
