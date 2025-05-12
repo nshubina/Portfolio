@@ -7,25 +7,15 @@
       <li> The Testomat.io bug reports were created in Jira 📊.</li>
       <br>
       <li> The Book Store bug reports were created in Google Sheets📝. </li>
-      <p> Link to bug reports in Google sheet 
-          <a href="https://docs.google.com/spreadsheets/d/1oprHB6L1n0X1c3QTfigsK5AcIUwJCT3QBjTxKwp6fD4/edit?usp=sharing" target="_blank"> here.</a></p>
     </ul>
+    <p> Link to bug reports in Google sheet <a href="https://docs.google.com/spreadsheets/d/1oprHB6L1n0X1c3QTfigsK5AcIUwJCT3QBjTxKwp6fD4/edit?usp=sharing" target="_blank"> here.</a></p>
     <h2> Overview bug reports</h2>
     <h3> 📑Testomat.io application </h3>
     <p> Each Testomat.io bug report was identified during the execution of planned test cases within a structured test run.
         The corresponding test run and its test cases are included in the attached file: <i>'Testomat.io bug reports.pdf'</i>.</p>
     <h3>📚 Book Store application</h3>
-    <p> TThe bug reports were discovered while going through the checklist at the following link:
-        <a href="https://github.com/nshubina/Portfolio/tree/1696a4f0ffbdb6d72a0a6e270ec69f37df28d213/Checklist" target="blank">
-        Link to Checklists</a></p>
-    <p> Below is a mind map of the Book Store application. <br>
-        The map reflects the structure of the website, showing the main pages and the transitions between them from the user's point of view.</p>
-    <a href="https://miro.com/app/board/uXjVLzNDMnE=/?share_link_id=612734966371" target="_blank">Bookstore Application Mind Map</a>
+    <p> The bug reports were discovered while going through the checklist at the following link:
+        <a href="https://github.com/nshubina/Portfolio/tree/1696a4f0ffbdb6d72a0a6e270ec69f37df28d213/Checklist" target="_blank">
+        Link to Checklists</a>
+       The corresponding bug reports are added to a folder with names like: <i>'Bug reports-{{Module name}} (DEMOQA).pdf' </i></p>
 </div>
-
-
-    
-![image](https://github.com/user-attachments/assets/32376403-2977-4b82-b2f0-72dcd4232763)
-
-
-
