@@ -39,7 +39,7 @@
   </ul>
   <ul> 
     <li><b>'Checklist-based testing-<i>{{Name of module}}</i>-Answer.pdf'</b></li> 
-    <p> These documents includes the checklist-based review, a list of potential defects linked to checklist items, and a brief summary.</p>
+    <p> These documents include the checklist-based review, a list of potential defects linked to checklist items, and a brief summary.</p>
   </ul>
 
 </div>
