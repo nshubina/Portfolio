@@ -14,11 +14,18 @@
   <p> Make a <b>list of potential defects</b> in the specification, noting the severity level of each (High, Medium, or Low).<br>
       Note which checklist question has found the defect.</p>
 
-<h1>✅ My Solution :</h1>
-<p> You can view the solution in Google Sheets at the link: <a href="https://docs.google.com/spreadsheets/d/1zvXy7c53vkJGOK1HFFpyrAqLX2gu-PKmlX2zIAMi29A/edit?usp=sharing target="_blank"> My solution </a>.
-</p>
+<h1>✅ My Solution:</h1>
+  <p> You can view the solution in Google Sheets at the link: <a href="https://docs.google.com/spreadsheets/d/1zvXy7c53vkJGOK1HFFpyrAqLX2gu-PKmlX2zIAMi29A/edit?usp=sharing" target="_blank"> My solution </a>.</p>
 
-🔍 Task Focus: Reviewing the functional specification for the Selecting a Facility feature in a booking system.
+  <p> Previously, I evaluated requirements by reviewing their quality attributes such as completeness, clarity, consistency, etc.<br>
+      This time, I decided to challenge myself and try a new approach: testing the requirements using a checklist.<br>
+      Adopting the checklist-based approach turned out to be a highly effective decision. The process became more structured, and I uncovered gaps I hadn’t noticed before.<br>
+      The checklist helped me analyze the requirements more deeply and ask the right questions early on./p>
+
+<p>
+    
+🔍
+  Task Focus: Reviewing the functional specification for the Selecting a Facility feature in a booking system.
 
 📝 Goal: To evaluate whether the requirements are complete, clear, and testable.
 
