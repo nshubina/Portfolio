@@ -1,6 +1,6 @@
 <div>
     <h1> Welcome to the bug report documentation!🌞🚀 </h1>
-    <p> Here, you'll find the attached bug reports 🐞 for the
+    <p> HeInside this folder, you’ll find the bug reports 🐞 for the
         <a href="https://testomat.io/" target="_blank"><b>Testomat.io</b></a> and
         <a href="https://demoqa.com/books" target="_blank"><b>Book Store</b></a> applications.</p>
     <ul>
