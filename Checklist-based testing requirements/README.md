@@ -27,10 +27,10 @@
   <h3>What I did:</h3>
   <ol>
       <li> Used a structured checklist to evaluate the clarity, completeness, and consistency of requirements.</li>
-      <li> Identified missing information, unclear logic, and unspecified UI or functional behavior ). </li>
+      <li> Identified missing information, unclear logic, and unspecified UI or functional behavior. </li>
       <li> Created a checklist-based review</li>
       <li> Created a list of potential defects categorized by severity (High, Medium, Low) and mapped each to the related checklist question.</li>
-      <li> Write a brief summary of the requirements problem for each functional module.</li>
+      <li> Wrote a brief summary of the requirements problem for each functional module.</li>
   </ol> 
   <h2> About documents in the folder:</h2>
   <ul> 
@@ -39,7 +39,7 @@
   </ul>
   <ul> 
     <li><b>'Checklist-based testing-<i>{{Name of module}}</i>-Answer.pdf'</b></li> 
-    <p> These documents include the checklist-based review, a list of potential defects linked to checklist items, and a brief summary.</p>
+    <p> These documents include the checklist-based review, a list of potential defects linked to the related checklist items, and a brief summary.</p>
   </ul>
 
 </div>
