@@ -10,7 +10,7 @@
     file so you can preview the site right away without using any additional tools. </p> 
   
   <p><i>This landing page was created to enhance my web design and development skills, as well as to gain a better understanding of testing challenges.</i></p>
-  <p>HTML was used to set up the page layout, dividing it into sections like the header and events.<br> For styling, CSS was applied to define fonts, colors, and overall visual design</p>
+  <p>HTML was used to set up the page layout, dividing it into sections like the header and events.<br> For styling, CSS was applied to define fonts, colors, and overall visual design.</p>
   
   <p>Responsive  design was incorporated to ensure the landing page performs well on any device - whether it's a phone, tablet, or computer. This approach guarantees that the site looks good and remains user-friendly across different screen sizes.</p>
 </div>
