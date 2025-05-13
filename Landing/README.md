@@ -9,7 +9,8 @@
     <a href="https://github.com/nshubina/Portfolio/blob/4b4c800807c5e7efa0e12b53a465f6c895975808/Landing/Landing%20page.gif" target="_blank">GIF</a> 
     file so you can preview the site right away without using any additional tools. </p> 
   
-  <p>This landing page was created to enhance my web design and development skills, as well as to gain a better understanding of testing challenges. HTML was used to set up the page layout, dividing it into sections like the header and events. For styling, CSS was applied to define fonts, colors, and overall visual design</p>
+  <p><i>This landing page was created to enhance my web design and development skills, as well as to gain a better understanding of testing challenges.</i></p>
+  <p>HTML was used to set up the page layout, dividing it into sections like the header and events. For styling, CSS was applied to define fonts, colors, and overall visual design</p>
   
   <p>Responsive  design was incorporated to ensure the landing page performs well on any device - whether it's a phone, tablet, or computer. This approach guarantees that the site looks good and remains user-friendly across different screen sizes.</p>
 </div>
