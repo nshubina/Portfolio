@@ -1,5 +1,5 @@
 <div>
-  <h1>Hello!👋</h1>
+  <h1>🎉 Welcome to My Landing Page Project! 💻✨</h1>
   
   <p>Here you can view the <a href="https://github.com/nshubina/Portfolio/tree/57da40ade24539825e00e18b9d90ae3952515048/Landing/Landing%20page" target="_blank">sourse   code </a> of my landing page :) 🖼️ </p>
   
