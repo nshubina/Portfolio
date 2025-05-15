@@ -4,4 +4,4 @@
 <p>🧩 Folder include:</p>
 
 
-Link to the RTM matrix - <a href="https://docs.google.com/spreadsheets/d/1D6ICuvUaFa8YBLdcuh6Lf09aHThrB5AEp91OdDOtreQ/edit?usp=sharing" target="_blank">Rental Company </a>
+<p>Link to the RTM matrices: <a href="https://docs.google.com/spreadsheets/d/1D6ICuvUaFa8YBLdcuh6Lf09aHThrB5AEp91OdDOtreQ/edit?usp=sharing" target="_blank">Rental Company </a>, <a href="https://docs.google.com/spreadsheets/d/14wrOtobCjEQ4kUCQu8RVqCMnCTJ_mjttw-LwvZOjMxg/edit?usp=sharing" target="_blank"> Price Calculation </a></p>
