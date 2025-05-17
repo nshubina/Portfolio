@@ -5,7 +5,7 @@
 ![image](https://github.com/user-attachments/assets/10d269ec-e632-4835-9169-f6c81247e939)
 
 <p>The rental company table decision contains separate tables for different requirements. Combining all the requirements into one table would have made it overly complex and difficult to maintain, so I chose a more modular approach.<br>
-So instead, I created a decision table for each requirement, optimized them, and removed all unnecessary or meaningless checks 🧹✨ </p>\
+So instead, I created a decision table for each requirement, optimized them, and removed all unnecessary or meaningless checks 🧹✨ </p>
 
 <p>📎 Once the decision tables were finalized, I used them as the foundation for designing test cases.</p>
 
