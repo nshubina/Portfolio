@@ -1,6 +1,6 @@
 <div> 
   <h1>Rental company application ✨ </h1>
-  <p>I wrote test cases for the following application: <a href="https://exercises.test-design.org/rental/" target="_blank">Rental Company app</a>.</p>
+  <p>I wrote <a href="https://github.com/nshubina/Portfolio/blob/fefc542bcf0b503ebdb2a7d86707b7c569c5d852/Test%20Cases/Rental%20Company/Rental%20company.%20Core%20test%20cases.pdf" target="_blank"> test cases</a> for the following application: <a href="https://exercises.test-design.org/rental/" target="_blank">Rental Company app</a>.</p>
 
   ![image](https://github.com/user-attachments/assets/10d269ec-e632-4835-9169-f6c81247e939)
 
