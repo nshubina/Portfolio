@@ -7,7 +7,7 @@
   <p>🔎 Before developing the test cases, I analyzed the requirements. </p>
 
   <p>
-   📝 Based on this analysis, I created individual decision tables for each requirement to keep the logic clear and manageable. Each table was 
+   📝 Based on this analysis, I created individual <a href="https://github.com/nshubina/Portfolio/tree/bca24141f9b420e8ce7e97e9d1b219d47ab43fb1/Test%20Design/Table%20Decision/Rental%20Company"> decision tables </a>for each requirement to keep the logic clear and manageable. Each table was 
     optimized to avoid redundant or irrelevant checks, ensuring a clean and focused design.
   </p>
 
