@@ -1,18 +1,18 @@
 <h1>Rental company application ✨ </h1>
-<p>The rental company folder contains separate decision tables for different requirements. </p>
+
+<p>I write table decision for the the following application: <a href="https://exercises.test-design.org/rental/" target="_blank">Rental Company app</a>.</p>
 
 ![image](https://github.com/user-attachments/assets/10d269ec-e632-4835-9169-f6c81247e939)
 
-      <br><br>
-     Combining all the requirements into one table would have made it overly complex and difficult to maintain, so I chose a more modular approach 😅
-      <br><br>
+<p>The rental company folder contains separate decision tables for different requirements. </p>
+
+    Combining all the requirements into one table would have made it overly complex and difficult to maintain, so I chose a more modular approach 😅
+
       So instead, I created a decision table for each requirement, optimized them, and removed all unnecessary or meaningless checks 🧹✨
     </p>
 </div>
 <div> 
-  <h1>Rental company application ✨ </h1>
-  <p>I wrote test cases for the the following application: <a href="https://exercises.test-design.org/rental/" target="_blank">Rental Company app</a>.</p>
-
+ 
 
   <p>🔎 Before developing the test cases, I analyzed the requirements. </p>
 
