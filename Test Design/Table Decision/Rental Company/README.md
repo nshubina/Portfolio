@@ -1,6 +1,6 @@
 <h1>Rental company application ✨ </h1>
 
-<p>I write <a href="https://github.com/nshubina/Portfolio/blob/bca24141f9b420e8ce7e97e9d1b219d47ab43fb1/Test%20Design/Table%20Decision/Rental%20Company/Rental%20Company%20-%20Tables%20decision.pdf" target="_blank"> table decision </a> for the the following application: <a href="https://exercises.test-design.org/rental/" target="_blank">Rental Company app</a>.</p>
+<p>I wrote <a href="https://github.com/nshubina/Portfolio/blob/bca24141f9b420e8ce7e97e9d1b219d47ab43fb1/Test%20Design/Table%20Decision/Rental%20Company/Rental%20Company%20-%20Tables%20decision.pdf" target="_blank"> table decision </a> for the following application: <a href="https://exercises.test-design.org/rental/" target="_blank">Rental Company app</a>.</p>
 
 ![image](https://github.com/user-attachments/assets/10d269ec-e632-4835-9169-f6c81247e939)
 
