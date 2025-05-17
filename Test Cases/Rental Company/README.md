@@ -17,6 +17,6 @@
 
   <p> 📌 You can view the full documentation for Rental Company application (including the RTM, decision tables, and test cases) in <a href="https://docs.google.com/spreadsheets/d/1D6ICuvUaFa8YBLdcuh6Lf09aHThrB5AEp91OdDOtreQ/edit?usp=sharing" target="_blank">Google Sheet document</a> 
   <br> 
-    or see them in my Portfolio: <a href="https://github.com/nshubina/Portfolio/blob/edee8bff6b85ca37f087ee5310052b2e369850ac/RTM/Rental%20company%20-%20RTM.pdf" target="_blank">RTMatrix</a>, <a href="[https://github.com/nshubina/Portfolio/blob/edee8bff6b85ca37f087ee5310052b2e369850ac/Test%20Design/Table%20Decision/Rental%20Company/Rental%20Company%20-%20Tables%20decision.pdf](https://github.com/nshubina/Portfolio/blob/a3ce6e3f8793e5c807fd8009829e85fe1e6a6d10/Test%20Design/Table%20Decision/Rental%20Company/Rental%20Company%20-%20Tables%20decision.pdf)" target="_blank">Table decision</a>
+    or see them in my Portfolio: <a href="https://github.com/nshubina/Portfolio/blob/edee8bff6b85ca37f087ee5310052b2e369850ac/RTM/Rental%20company%20-%20RTM.pdf" target="_blank">RTMatrix</a>, <a href="https://github.com/nshubina/Portfolio/blob/a3ce6e3f8793e5c807fd8009829e85fe1e6a6d10/Test%20Design/Table%20Decision/Rental%20Company/Rental%20Company%20-%20Tables%20decision.pdf" target="_blank">Table decision</a>
   </p>
 </div> 
