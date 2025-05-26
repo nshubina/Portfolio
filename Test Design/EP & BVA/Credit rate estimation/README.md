@@ -1,4 +1,4 @@
-# Credit Rate Estimation app 💾💵
+# Credit Rate Estimation app 💵
 Given the description of a program's logic that calculates the interest rate based on the number of days in the credit term, as well as the reduction of this rate depending on the loan amount.
 
 For which input values will you test the following logic, considering that the values for the days of the credit term and the loan amount are entered into specially designated fields? The program sets the interest rate for the loan based on its term and amount:
