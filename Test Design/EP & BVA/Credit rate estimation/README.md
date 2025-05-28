@@ -1,4 +1,4 @@
-# Credit Rate Estimation app 💵
+# Credit Rate Estimation app 🧩💵
 
 The application calculates the interest rate based on the number of days in the loan term, as well as the reduction of this rate depending on the loan amount.
 
