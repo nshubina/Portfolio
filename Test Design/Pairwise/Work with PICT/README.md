@@ -22,13 +22,14 @@ The **goal** is to minimize the number of test cases while ensuring that all val
 
 First, I created a <a href="https://github.com/nshubina/Portfolio/blob/cf1616c7d073a48da7526c92ffd5ddafa1bdc9b2/Test%20Design/Pairwise/Work%20with%20PICT/example.txt" targget="_blank">example.txt</a> file with a list of test parameters. 
 
-Then, to improve testing efficiency, I added several constraints to exclude invalid combinations that should not be tested.
+Then, to improve testing efficiency, I added several constraints to exclude invalid combinations that should not be tested:
 
+`IF [Brand]="Apple" THEN [OS]="iOS";`
 
-<code>IF [Brand]="Apple" THEN [OS]="iOS";
-IF [Brand]="Samsung" OR [Brand]="Lenovo" OR [Brand]="Xiaomi" THEN [OS]="Android";
-IF [Type]="Flip phone" THEN NOT [Brand]="Apple" AND NOT [OS]="iOS";
-</code>
+`IF [Brand]="Samsung" OR [Brand]="Lenovo" OR [Brand]="Xiaomi" THEN [OS]="Android";`
+
+`IF [Type]="Flip phone" THEN NOT [Brand]="Apple" AND NOT [OS]="iOS";`
+
 
 
 
