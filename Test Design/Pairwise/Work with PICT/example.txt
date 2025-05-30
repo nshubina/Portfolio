@@ -1,0 +1,9 @@
+Brand: Samsung, Apple, Lenovo, Xiaomi
+OS: Android, iOS
+Type: Smartphone, Flip phone
+Display type: IPS, OLED, Retina
+Color: White, Black, Red, Gray, Gold
+
+IF [Brand]="Apple" THEN [OS]="iOS";
+IF [Brand]="Samsung" OR [Brand]="Lenovo" OR [Brand]="Xiaomi" THEN [OS]="Android";
+IF [Type]="Flip phone" THEN NOT [Brand]="Apple" AND NOT [OS]="iOS";
