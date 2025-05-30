@@ -10,10 +10,10 @@ The <a href="https://github.com/microsoft/pict" target="_blank">PICT tool </a>re
 
 The system under test includes the following input parameters:
 
-- Brand: Samsung, Apple, Lenovo, Xiaomi
-- OS: Android, iOS
-- Type: Smartphone, Flip phone
-- Display type: IPS, OLED, Retina
-- Color: White, Black, Red, Gray, Gold
+- **Brand**: Samsung, Apple, Lenovo, Xiaomi
+- **OS**: Android, iOS
+- **Type**: Smartphone, Flip phone
+- **Display type**: IPS, OLED, Retina
+- **Color**: White, Black, Red, Gray, Gold
 
-The goal is to minimize the number of test cases while ensuring that all valid pairs of input values are tested and the constraints are respected.
+The **goal** is to minimize the number of test cases while ensuring that all valid pairs of input values are tested.
