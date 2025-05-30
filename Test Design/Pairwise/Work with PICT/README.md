@@ -30,9 +30,16 @@ Then, to improve testing efficiency, I added several constraints to exclude inva
 
 `IF [Type]="Flip phone" THEN NOT [Brand]="Apple" AND NOT [OS]="iOS";`
 
-
-
-
-I run the PICT app in the console:
+Next step I run the PICT app in the console:
 
 ![image](https://github.com/user-attachments/assets/a102c207-2004-4a53-ad28-5db6eec79f3c)
+
+After  running pict app I use created file and
+
+![image](https://github.com/user-attachments/assets/8695b1fc-a71e-4498-b3b6-e2812d21a8a8)
+
+
+
+# Result
+Also, I add result into the output.txt file
+And duplicate them in the table format.  
