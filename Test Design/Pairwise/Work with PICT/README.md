@@ -17,3 +17,16 @@ The system under test includes the following input parameters:
 - **Color**: White, Black, Red, Gray, Gold
 
 The **goal** is to minimize the number of test cases while ensuring that all valid pairs of input values are tested.
+
+# Solution
+
+I run the PICT app in the console:
+
+![image](https://github.com/user-attachments/assets/a102c207-2004-4a53-ad28-5db6eec79f3c)
+
+Create the <a href="https://github.com/nshubina/Portfolio/blob/cf1616c7d073a48da7526c92ffd5ddafa1bdc9b2/Test%20Design/Pairwise/Work%20with%20PICT/example.txt" targget="_blank">example.txt</a> file and add the following restrictions:
+<code> 
+IF [Brand]="Apple" THEN [OS]="iOS";
+IF [Brand]="Samsung" OR [Brand]="Lenovo" OR [Brand]="Xiaomi" THEN [OS]="Android";
+IF [Type]="Flip phone" THEN NOT [Brand]="Apple" AND NOT [OS]="iOS";
+</code>
