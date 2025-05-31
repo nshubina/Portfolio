@@ -1,0 +1,21 @@
+Brand	OS	Type	Display type	Color
+Lenovo	Android	Smartphone	IPS	Gold
+Apple	iOS	Smartphone	OLED	Black
+Samsung	Android	Flip phone	Retina	Red
+Lenovo	Android	Flip phone	Retina	White
+Samsung	Android	Flip phone	OLED	Gold
+Xiaomi	Android	Smartphone	Retina	Black
+Xiaomi	Android	Flip phone	IPS	Gold
+Apple	iOS	Smartphone	Retina	Gold
+Lenovo	Android	Flip phone	IPS	Black
+Samsung	Android	Smartphone	IPS	Gray
+Xiaomi	Android	Smartphone	OLED	Red
+Samsung	Android	Smartphone	IPS	White
+Apple	iOS	Smartphone	IPS	White
+Samsung	Android	Smartphone	Retina	Black
+Apple	iOS	Smartphone	IPS	Red
+Lenovo	Android	Flip phone	OLED	Red
+Xiaomi	Android	Flip phone	Retina	Gray
+Xiaomi	Android	Flip phone	OLED	White
+Apple	iOS	Smartphone	OLED	Gray
+Lenovo	Android	Flip phone	OLED	Gray
