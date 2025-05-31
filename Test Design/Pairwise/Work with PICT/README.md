@@ -19,9 +19,9 @@ The **goal of testing:**
 
 2. To improve testing efficiency, I added several constraints into the *example.txt* file to exclude invalid combinations that should not be tested:
 
-`IF [Brand]="Apple" THEN [OS]="iOS";`<br>
-`IF [Brand]="Samsung" OR [Brand]="Lenovo" OR [Brand]="Xiaomi" THEN [OS]="Android";`<br>
-`IF [Type]="Flip phone" THEN NOT [Brand]="Apple" AND NOT [OS]="iOS";`
+    `IF [Brand]="Apple" THEN [OS]="iOS";`<br>
+    `IF [Brand]="Samsung" OR [Brand]="Lenovo" OR [Brand]="Xiaomi" THEN [OS]="Android";`<br>
+    `IF [Type]="Flip phone" THEN NOT [Brand]="Apple" AND NOT [OS]="iOS";`
 
 3. I ran the PICT tool from the console:
 
@@ -31,6 +31,7 @@ The **goal of testing:**
 
 ![image](https://github.com/user-attachments/assets/7821b98c-30e6-4f63-89db-92e568da82fc)
 
+4.1 To simplify further access and review, the generated results were saved to <a href="" target="_blank">output.txt</a>.
 ![image](https://github.com/user-attachments/assets/cdfe86e1-fa82-4162-886c-46bbff7adeee)
 
 
