@@ -61,3 +61,15 @@ And duplicate them in the table format.
 | 18 | Xiaomi | Android | Flip phone   | OLED          | White  |
 | 19 | Apple  | iOS     | Smartphone   | OLED          | Gray   |
 | 20 | Lenovo | Android | Flip phone   | OLED          | Gray   |
+
+# Conclusion
+
+Using pairwise testing with PICT significantly reduced the total number of test cases required. Without optimization, testing all possible combinations of the five parameters would result in:
+
+    4 (Brand) × 2 (OS) × 2 (Type) × 3 (Display type) × 5 (Color) = 240 combinations
+
+However, thanks to pairwise testing and the use of constraints to exclude invalid scenarios, we generated only:
+
+    20 optimized test cases
+
+This means we tested all meaningful pairs while reducing the number of cases by over 90%, saving time and effort without compromising coverage
