@@ -1,5 +1,5 @@
-# Pairwise Testing with PICT
-This project demonstrates the use of pairwise testing with the The <a href="https://github.com/microsoft/pict" target="_blank">PICT tool </a> to efficiently generate a minimized and logically valid set of test cases for a feature resembling a product filter.
+# Pairwise Testing with PICT 🧩✨
+This project demonstrates the use of pairwise testing with the <a href="https://github.com/microsoft/pict" target="_blank">PICT tool </a> to efficiently generate a minimized and logically valid set of test cases for a feature resembling a product filter.
 
 # Task
 The system under test accepts the following input parameters:
@@ -10,12 +10,12 @@ The system under test accepts the following input parameters:
 - **Color**: White, Black, Red, Gray, Gold
 
 The **goal of testing:** 
-- Generate a compact set of test cases that covers all valid pairs of input values a
-- Avoid testing logically invalid or irrelevant combinations by applying constraints.
+1. Generate a compact set of test cases that covers all valid pairs of input values.
+2. Avoid testing logically invalid or irrelevant combinations by applying constraints.
 
 # Solution
 
-1. I created a <a href="https://github.com/nshubina/Portfolio/blob/cf1616c7d073a48da7526c92ffd5ddafa1bdc9b2/Test%20Design/Pairwise/Work%20with%20PICT/example.txt" targget="_blank">example.txt</a> file listing all values for each parameter and the constraints above.
+1. I created the <a href="https://github.com/nshubina/Portfolio/blob/cf1616c7d073a48da7526c92ffd5ddafa1bdc9b2/Test%20Design/Pairwise/Work%20with%20PICT/example.txt" targget="_blank">example.txt</a> file listing all values for each parameter and the constraints above.
 
 2. To improve testing efficiency, I added several constraints into the *example.txt* file to exclude invalid combinations that should not be tested:
 
@@ -27,7 +27,7 @@ The **goal of testing:**
 
 ![image](https://github.com/user-attachments/assets/29fd5d9e-5d53-4c29-b919-0caf1b939273)
 
-4. After running PICT app I use created *example.txt* file in the following approach:
+4. After launching the PICT tool, I provided the previously created <a href="https://github.com/nshubina/Portfolio/blob/cf1616c7d073a48da7526c92ffd5ddafa1bdc9b2/Test%20Design/Pairwise/Work%20with%20PICT/example.txt" targget="_blank">**example.txt**</a> file as input, allowing the tool to generate an optimized set of test cases based on the defined parameters and constraintsд
 
 ![image](https://github.com/user-attachments/assets/7821b98c-30e6-4f63-89db-92e568da82fc)
 
