@@ -10,7 +10,7 @@
 
 📊 Additionally, I aimed to compare my manually created test set with the outputs of some of the most popular pairwise testing tools.
 <br><br>
-Below, you can see a screenshot from a real project that I used as the basis for performing pairwise testing:
+The screenshot below shows a real project along with the selected input parameters that will be used for pairwise testing:
 
 ![image](https://github.com/user-attachments/assets/cb33b71a-f5c6-4d55-8137-f45114919307)
 
