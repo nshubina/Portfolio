@@ -9,6 +9,8 @@
 🛠️ However, in this case, I deliberately chose to do it by hand to fully grasp the logic behind the design of pairwise-based test sets.
 
 📊 Additionally, I aimed to compare my manually created test set with the outputs of some of the most popular pairwise testing tools.
+<br><br>
+Below, you can see a screenshot from a real project that I used as the basis for performing pairwise testing:
 
 ![image](https://github.com/user-attachments/assets/cb33b71a-f5c6-4d55-8137-f45114919307)
 
