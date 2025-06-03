@@ -14,7 +14,7 @@ The screenshot below shows a real project along with the selected input paramete
 
 ![image](https://github.com/user-attachments/assets/cb33b71a-f5c6-4d55-8137-f45114919307)
 
-<h3>The documentation is available at the following Google Sheet link: <a href="https://docs.google.com/spreadsheets/d/1Rk-eSZzawtvajTL1QjHO15g6cs-MaCUBxRG4q2XFpEA/edit?usp=sharing" target="_blank">Notebook builder - Pairwise technique.</a>.</h3>
+<h3>The documentation is available at the following Google Sheet link: <a href="https://docs.google.com/spreadsheets/d/1Rk-eSZzawtvajTL1QjHO15g6cs-MaCUBxRG4q2XFpEA/edit?usp=sharing" target="_blank">Notebook builder - Pairwise technique.</a></h3>
 
 
 
