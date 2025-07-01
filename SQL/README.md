@@ -1,2 +1,4 @@
-# Database diagram:
-![image](https://github.com/user-attachments/assets/e51c36c8-b6e6-4a6d-835e-b7931ca13d66)
+# Database diagram (MS SQL Server):
+
+![image](https://github.com/user-attachments/assets/04423030-79b6-4569-9af6-fc909dcb8232)
+
