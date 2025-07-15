@@ -24,14 +24,13 @@ This portfolio is based on a custom-built **Airport database**, which includes r
 The queries are arranged from simple to complex to demonstrate the gradual development of my skills.
  
 # ✅ My SQL Skills
+1. Basic Querying (SELECT, WHERE, ORDER BY, DISTINCT, LIKE, IN, BETWEEN)
+2. Table Joins.
+3. Aggregations and grouping.
+4. Subqueries
+5. Sorting & Limiting
+6. DML Operations (INSERT, UPDATE, DELETE)
+7. Schema scripting (schema.sql) with proper data types and constraints.
+8. Data insertion with clean and ordered INSERT INTO scripts (test_data.sql).
 
-  1. Relational database design using CREATE TABLE
-  2. Schema scripting (schema.sql) with proper data types and constraints.
-  3. Data insertion with clean and ordered INSERT INTO scripts (test_data.sql).
-  4. Basic Querying (SELECT, WHERE, ORDER BY, DISTINCT, LIKE, IN, BETWEEN).
-  5. Table Joins (especially LEFT JOIN, Inner Join) to connect related tables.
-  6. Aggregations and grouping.
-  7. Subqueries. 
-  8. Sorting & Limiting
-  9. DML Operations (INSERT, UPDATE, DELETE)
     
