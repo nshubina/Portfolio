@@ -22,35 +22,16 @@ This portfolio is based on a custom-built **Airport database**, which includes r
 
 ## 🧠 Notes on Query Complexity
 The queries are arranged from simple to complex to demonstrate the gradual development of my skills.
+ 
+# ✅ My SQL Skills
 
-## 🛠️ Briwfly, What I Can Do with SQL
-
-### ✅ Basic Querying
-- Select data from one or more tables
-- Filter using `WHERE`, `LIKE`, `IN`, `BETWEEN`, `IS NULL`
-
-### ✅ Aggregation and Grouping
-- Use of `COUNT`, `SUM`, `AVG`, `MIN`, `MAX`
-- Grouping data with `GROUP BY`
-- Filtering groups with `HAVING`
-
-### ✅ Table Joins
-- Work with `INNER JOIN`, `LEFT JOIN`
-- Combine multiple tables in queries
-
-### ✅ Subqueries
-- Use scalar and correlated subqueries in `SELECT`, `WHERE`, and `HAVING` clauses
-
-### ✅ Sorting & Limiting
-- Order data using `ORDER BY`, use of `TOP`, `LIMIT`
-
-### ✅ DML Operations
-- Insert new records (`INSERT`)
-- Update existing data (`UPDATE`)
-- Delete records safely (`DELETE` with `WHERE` clause)
-
-### ✅ Data Analysis Scenarios
-- Determine most frequent values
-- Find unmatched or missing records
-- Track min/max conditions across grouped data
-- Analyze trends or totals
+  1. Relational database design using CREATE TABLE
+  2. Schema scripting (schema.sql) with proper data types and constraints.
+  3. Data insertion with clean and ordered INSERT INTO scripts (test_data.sql).
+  4. Basic Querying (SELECT, WHERE, ORDER BY, DISTINCT, LIKE, IN, BETWEEN).
+  5. Table Joins (especially LEFT JOIN, Inner Join) to connect related tables.
+  6. Aggregations and grouping.
+  7. Subqueries. 
+  8. Sorting & Limiting
+  9. DML Operations (INSERT, UPDATE, DELETE)
+    
