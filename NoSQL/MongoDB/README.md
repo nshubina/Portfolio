@@ -1,3 +1,6 @@
 🧭 NoSQL Practice using MongoDB
 
-Here, I practiced working with MongoDB using MongoDB Compass and the Mongo Shell to explore NoSQL data operations.
+This project is my basic introduction to MongoDB — a type of NoSQL database.
+It shows how I practiced simple operations like creating a database, inserting, and finding documents.
+
+I practiced basic MongoDB operations using MongoDB Compass and the Mongo Shell.
