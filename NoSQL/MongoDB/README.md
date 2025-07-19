@@ -1,6 +1,3 @@
-Hi!
+🧭 NoSQL Practice using MongoDB
 
-Here I show u my knowledge in this db
-
-
-
+Here, I practiced working with MongoDB using MongoDB Compass and the Mongo Shell to explore NoSQL data operations.
