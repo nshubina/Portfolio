@@ -1,5 +1,4 @@
-# 📄QA Portfolio 
-<h3> Welcome to my QA portfolio! 👋</h3>
+# 📄 Welcome to my QA portfolio! 👋</h3>
 
 Here, I present my practical experience, skills, and examples of real work in software testing. 🚀
 
