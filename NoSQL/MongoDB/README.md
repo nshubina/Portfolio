@@ -5,7 +5,12 @@ It shows how I practiced simple operations like creating a database, inserting, 
 
 I practiced basic MongoDB operations using MongoDB Compass and the Mongo Shell.
 
-# 🧠 My MongoDB Skills
+## 📁 Project Structure
+- MongoDB. Tasks and Solutions.pdf — a list of tasks with query-based solutions
+- README.md — project overview and description of my MongoDB skills
+- mongodb_scripts.js — a collection of commands I used in the Mongo Shell during practice
+
+## 🧠 My MongoDB Skills
 
 This project demonstrates my ability to work with basic MongoDB operations and queries.
 
