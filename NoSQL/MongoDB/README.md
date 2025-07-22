@@ -6,9 +6,8 @@ It shows how I practiced simple operations like creating a database, inserting, 
 I practiced basic MongoDB operations using MongoDB Compass and the Mongo Shell.
 
 ## 📁 Project Structure
-- MongoDB. Tasks and Solutions.pdf — a list of tasks with query-based solutions
-- README.md — project overview and description of my MongoDB skills
-- mongodb_scripts.js — a collection of commands I used in the Mongo Shell during practice
+- <a href="https://github.com/nshubina/Portfolio/blob/8e5333d21c42214ddec5538d6d300da9e0efde95/NoSQL/MongoDB/MongoDB.%20Tasks%20and%20Solutions.pdf" target="_blank">MongoDB. Tasks and Solutions.pdf</a> — a list of tasks and query-based solutions with screenshots of execution. 
+- <a href="https://github.com/nshubina/Portfolio/blob/8e5333d21c42214ddec5538d6d300da9e0efde95/NoSQL/MongoDB/mongodb_scripts.js" target="_blank"> mongodb_scripts.js </a> — a collection of commands I used in the Mongo Shell during practice
 
 ## 🧠 My MongoDB Skills
 
